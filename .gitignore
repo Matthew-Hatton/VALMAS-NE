@@ -2,7 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-./Objects
+/Objects/
 ./Papers
 ./Writing
 .Rproj
