@@ -56,7 +56,7 @@ W_files <- rbind(categorise_files("I:/Science/MS-Marine/MA/CNRM_ssp370", recursi
 
 tic()
 W_files %>%
-  .[1:12] %>% # check
+  # .[1:12] %>% # check
   future_map(NEMO_ERSEM, analysis = "slabR",                         # Interpolate grid_W files in paralell
              out_dir = "./Objects/vertical boundary", scheme = scheme,
              start = start, count = count, summary = summary,
