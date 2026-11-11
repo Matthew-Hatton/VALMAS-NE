@@ -63,15 +63,15 @@ ggplot(look) +
 
 #### extract ####
 
-#skip <- list.files("./Objects/NE_Days/")                                      # Already processed files
+skip <- list.files("./Objects/NE_Days/")                                      # Already processed files
 
 tictoc::tic()
 all_files %>%
   filter(Type %in% c("uo", "vo", "N4", "N3", "P1", "P234_n", "RP")) %>%                    # Nitrate, Ammonia, Detritus only
   #skip?
-  # filter(str_detect(paste0("NE.",Forcing,".",SSP,".",Month,".",Year,".rds"), paste(skip, collapse = "|"), negate = TRUE)) %>% # Remove files that already have summaries in the cache
+  filter(str_detect(paste0("NE.",Forcing,".",SSP,".",Month,".",Year,".rds"), paste(skip, collapse = "|"), negate = TRUE)) %>% # Remove files that already have summaries in the cache
   split(., f = list(paste(.$Month, .$Year, .$Forcing, .$SSP))) %>%                                   # Specify the timestep to average files over.
-  .[1:12] %>%
+  # .[1:12] %>%
   future_map(NEMO_ERSEM, analysis = "slabR", summary = scheme_result,
              scheme = scheme, start = start, count = count,
              out_dir = "./Objects/NE_Days", 
