@@ -9,9 +9,9 @@ source("./Code/R Scripts/@_Region file.R")                                      
 
 H_Flows <- readRDS("./Objects/physics/H-Flows.rds") %>%                             # Load flow data
   mutate(Neighbour = ifelse(Shore == "Inshore" & Neighbour == "Ocean", "Shelf", Neighbour)) %>% 
-  filter(Year == 1980 & Month == 1)                                         # Use an example year
+  filter(Year == 1991 & Month == 1)                                         # Use an example year
 
-V_Flows <- readRDS("./Objects/vertical diffusivity.rds")
+V_Flows <- readRDS("./Objects/vertical diffusivity/vertical diffusivity.rds")
 
 #### Combine vertical and horizontal flows ####
 
@@ -74,31 +74,6 @@ ggraph(routes_tidy, layout = "linear") +
         legend.margin=margin(c(5,2,5,-5))) +                                # Reduce padding by legend
   NULL
 
-ggsave("./Figures/flows/flows.png", plot = last_plot(), width = 10, height = 8, units = "cm", dpi = 500)
+ggsave("./Figures/flows/flows.png", plot = last_plot(), width = 30, height = 16, units = "cm", dpi = 500)
 
 #### Turn off flows ####
-
-edges_needed <- edges %>%
-  mutate(Balance = ifelse(from == 5 & to %in% c(3,4) | from == 3 & to %in% c(2,4) | # Identify which flows are automatically balanced by Strath E2E
-                            from == 1 & to == 2 | from == 4 & to == 3 | from == 2 & to == 1, FALSE, TRUE))
-
-routes_tidy <- tbl_graph(nodes = nodes, edges = edges_needed, directed = TRUE)     # Set file format for plotting
-
-ggraph(routes_tidy, layout = "linear") + 
-  geom_edge_arc(aes(width = weight, colour = weight, edge_linetype = Balance), alpha = 0.8) + 
-  scale_edge_width(range = c(0.2, 4)) +
-  geom_node_label(aes(label = label, fill = label), size = 3) +
-  scale_fill_manual(values = cols) +
-  geom_curve(aes(x = 1.7, y = .75, xend = 1.9, yend = .75), curvature = -0.5, arrow = arrow(length = unit(0.1, "cm"), type = "closed"), size = 0.25) +
-  geom_curve(aes(x = 1.9, y = .55, xend = 1.7, yend = .55), curvature = - 0.5, arrow = arrow(length = unit(0.1, "cm"), type = "closed"), size = 0.25) +
-  annotate("text", x = 1.8, y = 0.65, label = "Direction", size = 3) +
-  labs(caption = "Water exchanges between model zones, dashed lines are calculated to conserve water volumes in compartments.", edge_colour = "Flow") +
-  theme_graph() +
-  coord_cartesian(xlim = c(0.85,5.1)) +                                     # Set the plot window to avoid clipping labels
-  guides(edge_width = FALSE, fill = FALSE,
-         edge_colour = guide_edge_colourbar(barwidth = 0.5, barheight = 7)) +
-  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"),                           # Remove padding around plot
-        legend.margin=margin(c(5,2,5,-5))) +                                # Reduce padding by legend
-  NULL
-
-ggsave("./Figures/flows/flows_balance.png", plot = last_plot(), width = 16, height = 8, units = "cm", dpi = 500)

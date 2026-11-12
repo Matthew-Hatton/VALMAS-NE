@@ -6,6 +6,7 @@
 rm(list=ls())                                                               # Wipe the brain
 library(MiMeMo.tools)
 source("./Code/R Scripts/@_Region file.R")                                       # Define project region 
+source("./Code/R Scripts/helper/HelperFunctions.R")
 
 domains <- readRDS("./Objects/domain/Domains.rds")                                 # Load SF polygons of the MiMeMo model domains
 
@@ -43,41 +44,78 @@ ggplot(grid) +                                                              # Ch
 ggsave("./Figures/flows/check.04.1.png")
 
 #### Characterise transects (weights, target current, nature of water exchanges) ####
-Edges2 <- st_set_crs(Edges,3035) %>% st_transform(crs = 3035)
+Edges2 <- st_set_crs(Edges,crs) %>% st_transform(crs = crs)
 
-labelled <- st_intersection(st_make_valid(Edges2), st_make_valid(grid)) %>% 
+labelled <- st_intersection(st_make_valid(Edges), st_make_valid(grid)) %>% 
   mutate(split_length = as.numeric(st_length(.))) %>% 
-  dplyr::select(x, y, slab_layer, Shore, split_length, Bathymetry) %>% 
+  select(x, y, slab_layer, Shore, split_length, Bathymetry) %>% 
   filter(split_length > 0) %>% 
-  characterise_flows(st_transform(domains, crs = st_crs(Edges2)), precision = 10000) #%>% # In which direction? (in or out of box and with which neighbour)
+  characterise_flows2(st_transform(domains, crs = st_crs(Edges)), precision = 10000) #%>% # In which direction? (in or out of box and with which neighbour)
 
+check <- slice(labelled[[2]], labelled[[1]]$V3)
 
 ggplot() +
   geom_sf(data = domains, colour = "black") +
-  geom_sf(data = labelled, colour = "red")
+  geom_sf(data = check, colour = "red")
 
-## Remove offending transects, there's an annoying tiny switchback about 36.5s, 20e.
+# ggplot(labelled) +                                                              # Check segments are labelled
+#   geom_sf(aes(colour = Neighbour)) +
+#   viridis::scale_colour_viridis(option = "viridis", na.value = "red", discrete = T) +
+#   zoom +
+#   labs(caption = "Check the transects are correctly labelled by zone") +
+#   theme_minimal()
+# 
+# ggsave("./Figures/flows/check.04.2.png")
 
-ggplot(labelled) +                                                              # Check segments are labelled
-  geom_sf(aes(colour = Neighbour)) +
-  viridis::scale_colour_viridis(option = "viridis", na.value = "red", discrete = T) +
-  zoom +
-  labs(caption = "Check the transects are correctly labelled by zone") +
-  theme_minimal()
+########### fix domain overlaps
+dom <- st_transform(domains, crs = st_crs(Edges))
 
-ggsave("./Figures/flows/check.04.2.png")
+pair <- which(lengths(st_overlaps(dom)) > 0)
+st_drop_geometry(dom)[pair, ]          # confirm which is Inshore and which is Offshore
+
+# Cut the overlap out of the Offshore polygon
+off <- pair[dom$Shore[pair] == "Offshore"]
+ins <- setdiff(pair, off)
+
+st_geometry(dom)[off] <- st_difference(st_geometry(dom)[off], st_geometry(dom)[ins]) %>%
+  st_make_valid()
+
+st_overlaps(dom) %>% lengths() %>% .[. > 0]   # if overlap is gone should be empty
+###########
+
+dom_ll <- dom   # the overlap-fixed domains
+
+flows_1 <- st_intersection(st_make_valid(Edges), st_make_valid(grid)) %>%
+  mutate(split_length = as.numeric(st_length(.))) %>%
+  select(x, y, slab_layer, Shore, split_length, Bathymetry) %>%
+  filter(split_length > 0) %>%
+  characterise_flows2(dom_ll, precision = 10000)
+
+# If anything is ambiguous, flows_1 is a list: drop those transects and re-run
+if (is.list(flows_1) && !inherits(flows_1, "sf")) {
+  bad <- unique(na.omit(flows_1[[1]]$V3))
+  message(length(bad), " of ", nrow(flows_1[[2]]), " transects dropped as ambiguous")
+  dropped <- flows_1[[2]][bad, ]                       # keep these to inspect
+  labelled <- flows_1[[2]] %>%
+    slice(-bad) %>%
+    characterise_flows2(dom_ll, precision = 10000)
+} else {
+  labelled <- flows_1
+}
+
+stopifnot(inherits(labelled, "sf"))
 
 shallow <- mutate(labelled,
-                  thickness = ifelse(Bathymetry >= s_depth, s_depth, Bathymetry),
-                  weights = thickness*split_length) %>% 
-  st_drop_geometry() %>% 
+                  thickness = ifelse(Bathymetry >= SDepth, SDepth, Bathymetry),
+                  weights = thickness*split_length) %>%
+  st_drop_geometry() %>%
   dplyr::select(-c(thickness, Bathymetry, split_length))
 
-deep <- mutate(labelled, 
+deep <- mutate(labelled,
                slab_layer = "D",
-               thickness = ifelse(Bathymetry > d_depth, (d_depth-s_depth), (Bathymetry-s_depth)),
-               weights = thickness*split_length) %>% 
-  st_drop_geometry() %>% 
+               thickness = ifelse(Bathymetry > DDepth, (DDepth-SDepth), (Bathymetry-SDepth)),
+               weights = thickness*split_length) %>%
+  st_drop_geometry() %>%
   dplyr::select(-c(thickness, Bathymetry, split_length))
 
 #### Mark transects for different summaries ####

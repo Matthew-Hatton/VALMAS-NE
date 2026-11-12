@@ -14,6 +14,10 @@ scripts <- list.files(
 
 scripts <- scripts[!basename(scripts) %in% c(
   "@_batch_flows.R",
-  "3. Waves.R" # doesn't change between NM and NE
+  "1. Vertical Diffusivity.R",
+  "2. Vertical Exchanges.R",
+  "3. Waves.R", # doesn't change between NM and NE
+  "4. Make Transects.R",
+  NULL
 )] %>% 
   map(MiMeMo.tools::execute)

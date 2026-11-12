@@ -61,5 +61,5 @@ fix <- pmap(runs, function(Force, S){
   rbindlist() %>% 
   distinct(Year, Month,Forcing, SSP, .keep_all = TRUE)
 
-saveRDS(fix, "./Objects/vertical boundary/vertical diffusivity.rds")
+saveRDS(fix, "./Objects/vertical diffusivity/vertical diffusivity.rds")
 

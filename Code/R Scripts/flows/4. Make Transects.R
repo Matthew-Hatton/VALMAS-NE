@@ -1,7 +1,7 @@
 rm(list=ls())                                                               # Wipe the brain
 library(MiMeMo.tools) 
 library(furrr)
-source("./regionFile.R")                                       # Define project region 
+source("./Code/R Scripts/@_Region file.R")                                       # Define project region 
 
 plan(multisession,workers = availableCores() - 2)                                                          # Instruction for parallel processing
 
@@ -16,9 +16,9 @@ Edges <- st_cast(domains, "MULTILINESTRING", group_or_split = TRUE) %>%     # Si
   future_map(boundaries, crs = crs, .progress = T)                          # Break the linestrings of a domain into transects
 
 ggplot() +                                                                  # Check we're getting the inshore edges correctly
-  geom_sf(data = Inshore_ocean_boundaries, colour = "black", fill = "black") +                  
-  geom_sf(data = Edges[["Inshore"]], colour = "red") +                  
-  geom_sf(data = Edges[["Offshore"]], colour = "yellow") +                  
+  geom_sf(data = Inshore_ocean_boundaries, colour = "black", fill = "black") +
+  geom_sf(data = Edges[["Inshore"]], colour = "red") +
+  geom_sf(data = Edges[["Offshore"]], colour = "yellow") +
   theme_minimal() +
   viridis::scale_colour_viridis() +
   theme(legend.position = "none",
