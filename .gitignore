@@ -1,9 +1,11 @@
 Thumbs.db
-.Rproj.user
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
-/Objects/
-./Papers
-./Writing
-.Rproj
+Objects/
+Papers/
+Writing/
+*.Rproj
+Figures/grids/
+Figures/NEMO-ERSEM/
