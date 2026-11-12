@@ -74,3 +74,5 @@ ggplot(data = extract) +
   ylab(expression("Light (Em"^{-2}*"d"^{-1}*" )")) +
   facet_grid(rows = vars(Forcing)) +
   NULL
+
+ggsave("./Figures/physics/light.png", plot = last_plot(), width = 16, height = 8, units = "cm", dpi = 500)

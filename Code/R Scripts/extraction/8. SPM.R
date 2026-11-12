@@ -27,15 +27,18 @@ domains <- readRDS("./Objects/domain/Domains.rds") %>%                          
 
 ## was stored for PhD, so just use that file path.
 all_files <- list.files("I:/Science/MS/users/students/Hatton_Matthew/Documents/PhD/24-25/West_Greenland_Implementation/Objects/physics/Globcolour",
-                        full.names = TRUE, pattern = "SPM-OC5_MO_00.nc",recursive = T) %>% # Get file metadata
-  as.data.frame() %>%                                                       
-  rename(value = 1) %>% 
-  separate(value, into = c(NA, "Date"), 
-           remove = FALSE, sep = "_") %>%                                   # Extract the Date from the file name
-  mutate(Year = as.numeric(str_sub(Date, end = 4)),                         # Extract the Year
-         Month = as.numeric(str_sub(Date, start = 5, end = 6))) %>%         # Extract the Month
-  dplyr::select(-Date) %>% 
-  rename(File = "value")
+                        full.names = TRUE, pattern = "SPM-OC5_MO_00.nc", recursive = TRUE) %>%
+  as.data.frame() %>%
+  rename(File = 1) %>%
+  mutate(Name = basename(File)) %>%                                         # Only look at the file name, not the folder path
+  separate(Name, into = c(NA, "Date"), sep = "_", extra = "drop") %>%       # e.g. 20100101-20100131
+  mutate(Year  = as.numeric(str_sub(Date, end = 4)),
+         Month = as.numeric(str_sub(Date, start = 5, end = 6))) %>%
+  dplyr::select(-Date)
+
+# Sanity checks before going further
+stopifnot(!anyNA(all_files$Year), !anyNA(all_files$Month))
+anyDuplicated(all_files[, c("Year", "Month")])   # should be 0
 
 target <- dplyr::select(all_files, - File) %>%                                     # Target to reintroduce dropped time steps
   zoo::zoo(ISOdate(.$Year, .$Month, 1, 0))                                  # Convert to a zoo object for interpolation
