@@ -4,8 +4,11 @@ implementation <- "North_Sea"
 
 library(sf)
 # 
-# #EPSG <- rgdal::make_EPSG()
-# #EPSG2 <- filter(EPSG, str_detect(note, "Cape"))
+
+## Model Build
+start_year <- 2011 ; end_year <- 2019
+forcing <- "CNRM" ; ssp <- "ssp126"
+
 crs <- 4326                                                              # Specify the map projection for the project
 # These values can just be taken as the corners of the sediment map.
 minmax <- read.csv("./Data/Sediment/NorthSeaRegions.csv") %>% 
@@ -49,7 +52,6 @@ sed_pts  <- st_as_sf(minmax, coords = c("Longitude", "Latitude"), crs = 4326)
 sed_poly <- st_concave_hull(st_union(sed_pts), ratio = 0.05) %>% 
   st_sf(Region = implementation, geometry = .)
 
-start_year <- 2010 ; end_year <- 2070
 
 # ggplot(Region_mask)+geom_sf()
 # 
