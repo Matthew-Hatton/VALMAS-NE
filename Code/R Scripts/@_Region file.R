@@ -48,24 +48,36 @@ shape <- function(matrix, label = "DUMMY") {
 sed_pts  <- st_as_sf(minmax, coords = c("Longitude", "Latitude"), crs = 4326)
 sed_poly <- st_concave_hull(st_union(sed_pts), ratio = 0.05) %>% 
   st_sf(Region = implementation, geometry = .)
-# 
+
+start_year <- 2010 ; end_year <- 2070
+
 # ggplot(Region_mask)+geom_sf()
 # 
 # #### bounds.2 MAKE TRANSECTS ####
 # 
 # ## Polygons to mark which transects are along the open ocean-inshore boundary
+## define open ocean inshore boundaries
+inshore_polygon_south <- matrix(c(
+  1.0, 51,
+  1.0,50.85,
+  1.55, 50.75,
+  1.7, 50.90,
+  1.0, 51
+), ncol = 2, byrow = TRUE) %>% 
+  shape()
+
+inshore_polygon_north <- matrix(c(
+  8.075, 56.95,
+  8.075, 57.2,
+  8.30, 57.20,
+  8.30, 56.95,
+  8.075, 56.95
+), ncol = 2, byrow = TRUE) %>%
+  shape()
+
+Inshore_ocean_boundaries <- rbind(inshore_polygon_south,inshore_polygon_north)
 # 
-# Inshore_Ocean1 <- matrix(c(27.98, 27.98, 28.02, 28.02, 27.98,    # Longitudes
-#                            -38.5, -32, -32, -38.5, -38.5), ncol = 2, byrow = F) %>% 
-#   shape()
-# 
-# Inshore_Ocean2 <- matrix(c(14.3, 14.55, 16.3, 16.9, 16.8, 14.3,               # Longitudes
-#                            -30, -30,   -28.9, -28.1, -28.1, -30), ncol = 2, byrow = F) %>% 
-#   shape()
-# 
-# Inshore_ocean_boundaries <- rbind(Inshore_Ocean1, Inshore_Ocean2)
-# 
-# rm(Inshore_Ocean1, Inshore_Ocean2)
+rm(inshore_polygon_south, inshore_polygon_north)
 # 
 # #### expand polygon for sampling rivers ####
 # 
