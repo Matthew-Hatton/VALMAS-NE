@@ -80,7 +80,7 @@ My_V_Flows <- readRDS("./Objects/chemistry/SO_DO exchanges.rds") %>%
     arrange(Month)                                                            # Order by month to match template
   
   My_Rivers <- readRDS("./Objects/rivers and atmosphere/NE River input.rds") %>%
-    filter(between(Year, start_year, end_year)) %>%             # Limit to outputs from a specific run and time
+    filter(between(Year, 2010, 2019)) %>%             # Limit to outputs from a specific run and time
     mutate(Month = lubridate::month(Date)) %>%
     group_by(Month) %>%
     summarise(Runoff = mean(Runoff, na.rm = T)) %>%                           # Average by month across years
