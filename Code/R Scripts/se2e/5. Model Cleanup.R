@@ -2,7 +2,7 @@ source("./Code/R Scripts/@_Region file.R")
 
 ## Remove old csvs
 fns <- c(paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Driving/chemistry_NORTH_SEA_1970-1999.csv"),
-         paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Driving/physics_NORTH_SEA_1990-1999.csv"))
+         paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Driving/physics_NORTH_SEA_1970-1999.csv"))
 
 for (i in fns) {
   if (file.exists(i)) {
