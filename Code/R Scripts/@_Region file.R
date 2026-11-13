@@ -5,10 +5,11 @@ implementation <- "North_Sea"
 library(sf)
 library(tidyverse)
 # 
-
-## Model Build
-start_year <- 2011 ; end_year <- 2019
-forcing <- "CNRM" ; ssp <- "ssp126"
+## Model Build (set by @_batch_build.R; defaults used if run on its own)
+start_year <- as.numeric(Sys.getenv("BUILD_START",   "2010"))
+end_year   <- as.numeric(Sys.getenv("BUILD_END",     "2019"))
+forcing    <- Sys.getenv("BUILD_FORCING", "CNRM")
+ssp        <- Sys.getenv("BUILD_SSP",     "ssp126")
 
 crs <- 4326                                                              # Specify the map projection for the project
 # These values can just be taken as the corners of the sediment map.
