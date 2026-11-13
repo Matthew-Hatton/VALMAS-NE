@@ -20,7 +20,7 @@ My_boundary_data<- readRDS("./Objects/chemistry/Boundary measurements.rds") %>% 
   ungroup() %>% 
   arrange(Month)
 
-My_atmosphere <- readRDS(stringr::str_glue("./Objects/chemistry/NE.Atmospheric N deposition.rds")) %>%
+My_atmosphere <- readRDS(stringr::str_glue("./Objects/rivers and atmosphere/NE.Atmospheric N deposition.rds")) %>%
   filter(between(Year, start_year, end_year)) %>%     
   filter(SSP == paste0("ssp",ssp) | SSP == "hist") %>% # Limit to reference period
   group_by(Month, Oxidation_state, Shore,  Year) %>%
@@ -30,7 +30,14 @@ My_atmosphere <- readRDS(stringr::str_glue("./Objects/chemistry/NE.Atmospheric N
   pivot_wider(names_from = c(Shore, Oxidation_state), values_from = Measured) %>%            # Spread to match template
   arrange(Month)                                                                                  # Order months ascending
 
-My_river_N <- readRDS("./Objects/chemistry/NM River input.rds")
+My_river_N <- readRDS("./Objects/rivers and atmosphere/NE River input.rds") %>% 
+  filter(between(Year, start_year, end_year)) %>%                          # Limit to outputs from a specific run and time
+  mutate(Month = lubridate::month(Date)) %>% 
+  group_by(Month) %>%                                                                        # Average across years
+  summarise(NO3 = mean(NO3, na.rm = T),
+            NH4 = mean(NH4, na.rm = T)) %>%  
+  ungroup() %>% 
+  arrange(Month) 
 
 #### Create new file ####
 
@@ -64,5 +71,5 @@ Boundary_new <- Boundary_template %>%
          SO_other_ammonia_flux = 0,
   ) 
 
-write.csv(Boundary_new, file = paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2EPolar/extdata/Models/West_Greenland/",start_year,"-",end_year,"-",forcing,"-SSP",ssp,"/Driving/chemistry_WG_",start_year,"-",end_year,"-",forcing,"-SSP370.csv"),
+write.csv(Boundary_new, file = paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Driving/chemistry_NORTH_SEA_",start_year,"-",end_year,"-",forcing,"-",ssp,".csv"),
           row.names = F)
