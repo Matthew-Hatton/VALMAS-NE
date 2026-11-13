@@ -90,25 +90,41 @@ characterise_flows2 <- function(lines, domain, precision = 1000) {
 }
 
 ## Build all model combinations
-build_all <- function() {
+## Full build of the model: every decade x forcing x SSP, in parallel
+rm(list = ls())
+
+library(tidyverse)
+library(MiMeMo.tools)
+library(furrr)
+
+build_all <- function(n_workers = 4) {
   
   builds <- expand_grid(start_year = seq(2010, 2060, by = 10),
                         forcing    = c("GFDL", "CNRM"),
                         ssp        = c("ssp126", "ssp370")) %>%
-    mutate(end_year = start_year + 9)                      # 24 builds
+    mutate(end_year = start_year + 9)
   
   scripts <- list.files("./Code/R Scripts/se2e/", full.names = TRUE)
   scripts <- scripts[basename(scripts) != "@_batch_build.R"]
   
-  pwalk(builds, function(start_year, end_year, forcing, ssp) {
-    message("==== Building ", start_year, "-", end_year, "-", forcing, "-", ssp, " ====")
+  plan(multisession, workers = n_workers)
+  on.exit(plan(sequential))                                  # tidy up workers when done
+  
+  results <- future_pmap_chr(builds, function(start_year, end_year, forcing, ssp) {
+    id <- paste(start_year, end_year, forcing, ssp, sep = "-")
+    
     Sys.setenv(BUILD_START   = start_year,
                BUILD_END     = end_year,
                BUILD_FORCING = forcing,
                BUILD_SSP     = ssp)
     
-    tryCatch(walk(scripts, MiMeMo.tools::execute),          # one failure won't stop the other builds
-             error = function(e) message("FAILED: ", start_year, "-", end_year, "-",
-                                         forcing, "-", ssp, ": ", conditionMessage(e)))
-  })
+    tryCatch({
+      for (s in scripts) MiMeMo.tools::execute(s)
+      paste("OK    ", id)
+    }, error = function(e) paste("FAILED", id, ":", conditionMessage(e)))
+    
+  }, .options = furrr_options(seed = NULL), .progress = TRUE)
+  
+  walk(results, message)                                     # summary of all 24 builds
+  invisible(results)
 }
