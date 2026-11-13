@@ -15,6 +15,7 @@ for (i in fns) {
 ## Model setup
 model_setup <- read.csv(paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/MODEL_SETUP.csv"))
 
+# Names
 model_setup[2,1] <- paste0("physics_NORTH_SEA_",start_year,"-",end_year,".csv")
 model_setup[3,1] <- paste0("chemistry_NORTH_SEA_",start_year,"-",end_year,".csv")
 model_setup[4,1] <- paste0("initial_values_NORTH_SEA_",start_year,"-",end_year,".csv")
@@ -27,6 +28,11 @@ model_setup[4,1] <- paste0("initial_values_NORTH_SEA_",start_year,"-",end_year,"
 # model_setup[24,1] <- paste0("monthly_observede_NORTH_SEA_",start_year,"-",end_year,".csv")
 # model_setup[25,1] <- paste0("region_harvest_r_NORTH_SEA_",start_year,"-",end_year,".csv")
 # model_setup[26,1] <- paste0("zonal_harvest_r_NORTH_SEA_",start_year,"-",end_year,".csv")
+
+# Comments
+model_setup[2,4] <- paste0("North Sea ",start_year,"-",end_year," data from NEMO-ERSEM and elsewhere")
+model_setup[3,4] <- paste0("North Sea ",start_year,"-",end_year," data from NEMO-ERSEM and elsewhere")
+
 
 write.csv(model_setup,paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/MODEL_SETUP.csv"),
           row.names = FALSE)
