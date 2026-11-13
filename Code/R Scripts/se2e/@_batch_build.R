@@ -7,4 +7,4 @@ library(tictoc)
 
 source("./Code/R Scripts/helper/HelperFunctions.R")
 
-build_all()
+build_all(n_workers = 30)
