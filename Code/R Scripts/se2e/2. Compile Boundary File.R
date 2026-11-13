@@ -31,7 +31,7 @@ My_atmosphere <- readRDS(stringr::str_glue("./Objects/rivers and atmosphere/NE.A
   arrange(Month)                                                                                  # Order months ascending
 
 My_river_N <- readRDS("./Objects/rivers and atmosphere/NE River input.rds") %>% 
-  filter(between(Year, start_year, end_year)) %>%                          # Limit to outputs from a specific run and time
+  filter(between(Year, 2010, 2019)) %>%                          # Limit to outputs from a specific run and time
   mutate(Month = lubridate::month(Date)) %>% 
   group_by(Month) %>%                                                                        # Average across years
   summarise(NO3 = mean(NO3, na.rm = T),
