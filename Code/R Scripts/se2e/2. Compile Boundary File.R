@@ -22,7 +22,7 @@ My_boundary_data<- readRDS("./Objects/chemistry/Boundary measurements.rds") %>% 
 
 My_atmosphere <- readRDS(stringr::str_glue("./Objects/rivers and atmosphere/NE.Atmospheric N deposition.rds")) %>%
   filter(between(Year, start_year, end_year)) %>%     
-  filter(SSP == paste0("ssp",ssp) | SSP == "hist") %>% # Limit to reference period
+  filter(SSP == ssp | SSP == "hist") %>% # Limit to reference period
   group_by(Month, Oxidation_state, Shore,  Year) %>%
   summarise(Measured = sum(Measured, na.rm = T)) %>%                                         # Sum across deposition states
   summarise(Measured = mean(Measured, na.rm = T)) %>%                                        # Average over years
