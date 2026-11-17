@@ -91,12 +91,6 @@ characterise_flows2 <- function(lines, domain, precision = 1000) {
 
 ## Build all model combinations
 ## Full build of the model: every decade x forcing x SSP, in parallel
-rm(list = ls())
-
-library(tidyverse)
-library(MiMeMo.tools)
-library(furrr)
-
 build_all <- function(n_workers = 4) {
   
   builds <- expand_grid(start_year = seq(2010, 2060, by = 10),
