@@ -16,9 +16,9 @@ for (i in fns) {
 model_setup <- read.csv(paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/MODEL_SETUP.csv"))
 
 # Names
-model_setup[2,1] <- paste0("physics_NORTH_SEA_",start_year,"-",end_year,".csv")
-model_setup[3,1] <- paste0("chemistry_NORTH_SEA_",start_year,"-",end_year,".csv")
-model_setup[4,1] <- paste0("initial_values_NORTH_SEA_",start_year,"-",end_year,".csv")
+model_setup[2,1] <- paste0("physics_NORTH_SEA_",start_year,"-",end_year,"-",forcing,"-",ssp,".csv")
+model_setup[3,1] <- paste0("chemistry_NORTH_SEA_",start_year,"-",end_year,"-",forcing,"-",ssp,".csv")
+model_setup[4,1] <- paste0("initial_values_NORTH_SEA_",start_year,"-",end_year,"-",forcing,"-",ssp,".csv")
 # model_setup[5,1] <- paste0("event_timing_NORTH_SEA_",start_year,"-",end_year,".csv")
 # model_setup[6,1] <- paste0("fixed_consumers_NORTH_SEA_",start_year,"-",end_year,".csv")
 # model_setup[11,1] <- paste0("fishing_fleet_NORTH_SEA_",start_year,"-",end_year,".csv")
@@ -37,3 +37,9 @@ model_setup[3,4] <- paste0("North Sea ",start_year,"-",end_year," data from NEMO
 write.csv(model_setup,paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/MODEL_SETUP.csv"),
           row.names = FALSE)
 
+# rename initial values
+fn <- paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Param/initial_values_NORTH_SEA_1970-1999.csv")
+if (file.exists(fn)) {
+  file.rename(fn,
+              paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Param/initial_values_NORTH_SEA_",start_year,"-",end_year,"-",forcing,"-",ssp,".csv"))
+}
