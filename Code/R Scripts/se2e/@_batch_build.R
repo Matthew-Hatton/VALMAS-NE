@@ -3,7 +3,7 @@ rm(list = ls())
 
 library(tidyverse)
 library(MiMeMo.tools)
-library(tictoc)
+library(furrr)
 
 source("./Code/R Scripts/helper/HelperFunctions.R")
 
