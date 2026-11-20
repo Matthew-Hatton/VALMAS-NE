@@ -1,8 +1,8 @@
 source("./Code/R Scripts/@_Region file.R")
 
 ## Remove old csvs
-fns <- c(paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Driving/chemistry_NORTH_SEA_1970-1999.csv"),
-         paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Driving/physics_NORTH_SEA_1970-1999.csv"))
+fns <- c(paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Driving/chemistry_NORTH_SEA_2003-2013.csv"),
+         paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Driving/physics_NORTH_SEA_2003-2013.csv"))
 
 for (i in fns) {
   if (file.exists(i)) {
@@ -38,7 +38,7 @@ write.csv(model_setup,paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/
           row.names = FALSE)
 
 # rename initial values
-fn <- paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Param/initial_values_NORTH_SEA_1970-1999.csv")
+fn <- paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Param/initial_values_NORTH_SEA_2003-2013.csv")
 if (file.exists(fn)) {
   file.rename(fn,
               paste0("C:/Users/psb22188/AppData/Local/R/win-library/4.5/StrathE2E2/extdata/Models/North_Sea/",start_year,"-",end_year,"-",forcing,"-",ssp,"/Param/initial_values_NORTH_SEA_",start_year,"-",end_year,"-",forcing,"-",ssp,".csv"))
