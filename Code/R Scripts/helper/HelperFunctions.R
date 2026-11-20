@@ -99,7 +99,8 @@ build_all <- function(n_workers = 4) {
     mutate(end_year = start_year + 9)
   
   scripts <- list.files("./Code/R Scripts/se2e/", full.names = TRUE)
-  scripts <- scripts[basename(scripts) != "@_batch_build.R"]
+  scripts <- scripts[!basename(scripts) %in% c("@_batch_build.R",
+                                               "6. Compare Model Drivers.R")]
   
   plan(multisession, workers = n_workers)
   on.exit(plan(sequential))                                  # tidy up workers when done
@@ -122,3 +123,68 @@ build_all <- function(n_workers = 4) {
   walk(results, message)                                     # summary of all 24 builds
   invisible(results)
 }
+
+#### Read and reshape driver files ####
+read_driver <- function(model, type) {                                       # type = "physics" or "chemistry"
+  file <- file.path(models_dir, model, "Driving",
+                    paste0(type, "_NORTH_SEA_", model, ".csv"))
+  if (!file.exists(file)) {
+    warning("Missing, skipping: ", file)
+    return(NULL)
+  }
+  
+  d <- read.csv(file)
+  
+  d %>%
+    mutate(across(everything(), ~ suppressWarnings(as.numeric(.x)))) %>%
+    pivot_longer(-Month, names_to = "Variable", values_to = "Value") %>%     # One row per variable per month
+    mutate(Type = str_to_title(type),
+           Model = model)
+}
+
+compare_plot <- function(data, ncol = 1, base_size = 11) {
+  if (singleScenario == T) {
+    ggplot(mapping = aes(x = Month, y = Value, colour = Model,
+                         group = Model,linetype = Model)) +
+      geom_line(data = filter(data, Is_ref), linewidth = 1.3) +
+      geom_line(data = filter(data, !Is_ref), linewidth = 0.7) +
+      scale_x_continuous(breaks = 1:12) +
+      scale_y_continuous(expand = c(0,0)) +
+      facet_wrap(~ Variable, scales = "free_y", ncol = ncol) +
+      labs(x = NULL, y = NULL,
+           subtitle = paste0(new_period, " models vs ", ref_model)) +
+      theme_minimal(base_size = base_size) +
+      theme(legend.position = "bottom",
+            panel.grid.minor = element_blank(),
+            strip.text = element_text(face = "bold"),
+            legend.key.width = unit(1,"cm")) +
+      NULL
+  } else{
+    ggplot(mapping = aes(x = Month, y = Value, colour = Forcing, linetype = SSP,
+                         group = Model)) +
+      geom_line(data = filter(data, !Is_ref), linewidth = 0.7) +
+      geom_line(data = filter(data, Is_ref), linewidth = 1.3) +
+      scale_colour_manual(values = colours, name = "Forcing") +
+      scale_linetype_manual(values = lines, name = "SSP") +
+      scale_x_continuous(breaks = 1:12) +
+      scale_y_continuous(expand = c(0,0)) +
+      facet_wrap(~ Variable, scales = "free_y", ncol = ncol) +
+      labs(x = NULL, y = NULL,
+           subtitle = paste0(new_period, " models vs ", ref_model, " (thick black)")) +
+      theme_minimal(base_size = base_size) +
+      theme(legend.position = "bottom",
+            panel.grid.minor = element_blank(),
+            strip.text = element_text(face = "bold"),
+            legend.key.width = unit(1,"cm")) +
+      NULL
+  }
+  
+}
+
+meta <- function(model) {                                                    # Pull forcing + ssp out of the folder name
+  if (model == ref_model) return(c(Forcing = ref_model, SSP = ref_model))
+  m <- str_match(model, "^\\d{4}-\\d{4}-(\\w+)-(ssp\\d+)$")
+  c(Forcing = m[2], SSP = m[3])
+}
+
+safe_name <- function(x) str_replace_all(x, "[^A-Za-z0-9_.-]", "_") # replaces anything that isn't letters, numbers underscores, dots or hyphens with an underscore
