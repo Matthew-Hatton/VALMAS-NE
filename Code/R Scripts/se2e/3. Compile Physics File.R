@@ -108,7 +108,7 @@ My_V_Flows <- readRDS("./Objects/chemistry/SO_DO exchanges.rds") %>%
                         D_OceanIN = filter(My_H_Flows, slab_layer == "D", Shore == "Offshore", Neighbour == "Ocean", Direction == "In")$Flow,
                         SI_OceanIN = filter(My_H_Flows, slab_layer == "S", Shore == "Inshore", Neighbour == "Ocean", Direction == "In")$Flow,
                         SI_OceanOUT = filter(My_H_Flows, slab_layer == "S", Shore == "Inshore", Neighbour == "Ocean", Direction == "Out")$Flow,
-                        SO_SI_flow = 100 * filter(My_H_Flows, slab_layer == "S", Shore == "Offshore", Neighbour == "Inshore", Direction == "Out")$Flow,
+                        SO_SI_flow = filter(My_H_Flows, slab_layer == "S", Shore == "Offshore", Neighbour == "Inshore", Direction == "Out")$Flow,
                         # ## log e transformed suspended particulate matter concentration in zones
                         SO_LogeSPM = log(filter(My_SPM, Shore == "Offshore")$SPM),  
                         SI_LogeSPM = log(filter(My_SPM, Shore == "Inshore")$SPM),
