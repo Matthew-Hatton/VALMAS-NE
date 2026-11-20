@@ -9,3 +9,5 @@ Writing/
 *.Rproj
 Figures/grids/
 Figures/NEMO-ERSEM/
+*.png
+Code/R Scripts/flows/fixFlows.R
