@@ -10,6 +10,9 @@ uk <- ne_countries(country = "United Kingdom", returnclass = "sf",scale = 10)
 # uk_regions <- ne_states(country = "United Kingdom", returnclass = "sf")
 ireland <- ne_countries(country = "Ireland", returnclass = "sf",scale = 10)
 
+# read domain
+domain <- readRDS("./Objects/domain/Domains.rds")
+
 # read csvs
 rock <- read.csv("./Data/Sediment/NorthSeaRock.csv") %>%
   filter(Rock >= 0.5) %>%
@@ -26,7 +29,8 @@ sediment <- read.csv("./Data/Sediment/NorthSeaRegions.csv") %>%
            crs = 4326)
 
 # Retain rock points that overlap the North Sea sediment domain
-rock <- rock[lengths(st_intersects(rock, sediment)) > 0, ]
+rock <- rock[lengths(st_intersects(rock, sediment)) > 0, ] %>% 
+  mutate(Region = "North Sea")
 
 # Remove sediment pixels where dominant rock occurs
 overlap <- st_intersects(sediment, rock)
@@ -37,7 +41,21 @@ sediment_filtered <- sediment[lengths(overlap) == 0, ]
 sediment_final <- bind_rows(
   rock,
   sediment_filtered
-)
+) %>% 
+  dplyr::select(-Zone) %>%
+  st_join(
+    domain %>% dplyr::select(Zone),
+    join = st_within
+  ) %>% 
+  dplyr::select(-Rock) %>% # csv files don't like the geometry col
+  mutate(
+    X = st_coordinates(geometry)[, 1],
+    Y = st_coordinates(geometry)[, 2]
+  ) %>%
+  st_drop_geometry()
+  
+
+write.csv(sediment_final,"./Objects/sediment/NorthSeaSediment.csv",row.names = F)
 
 # Extract coordinates from sf geometry
 sediment_plot <- sediment_final %>%
