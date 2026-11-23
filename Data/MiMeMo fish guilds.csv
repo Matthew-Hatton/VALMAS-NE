@@ -1,0 +1,882 @@
+,Scientific.name,Common.name,Groupname,Category,Subcategory,Pricedata10,STECFspecies10,STECFname,IMR code,FAO,X,Guild
+1,Gadus morhua,Atlantic cod,Atlantic cod,Demersal,Quota-limited,1,1,Cod,1022,COD,1,Demersal (quota limited)
+2,Melanogrammus aeglefinus,Haddock,Haddock,Demersal,Quota-limited,1,1,Haddock,1027,HAD,1,Demersal (quota limited)
+3,Pollachius virens,Saithe (= Pollock),Saithe,Demersal,Quota-limited,1,1,Saithe,1032,POK,1,Demersal (quota limited)
+4,Pollachius virens,Saithe(=Pollock),Saithe,Demersal,Quota-limited,1,1,Saithe,1032,POK,1,Demersal (quota limited)
+5,Reinhardtius hippoglossoides,Greenland halibut,Greenland halibut,Demersal,Non-quota,1,1,Greenland halibut,2313,GHL,2,Demersal (non quota)
+6,Anarhichas spp,Wolffishes (= Catfishes),Wolffish,Demersal,Non-quota,1,1,Atlantic catfish,1719,CAT,2,Demersal (non quota)
+7,Anarhichas spp,Wolffishes(=Catfishes) nei,Wolffish,Demersal,Non-quota,1,1,Atlantic catfish,1719,CAT,2,Demersal (non quota)
+8,Pandalus borealis,Northern prawn,Northern prawn,Benthic invertebrate,Carnivore,1,1,Northern prawn,2524,PRA,3,Benthos carnivore/scavenge feeder
+9,Molva molva,Ling,Ling,Demersal,Non-quota,1,1,Ling,1023,LIN,2,Demersal (non quota)
+10,Brosme brosme,Tusk(= Cusk),Tusk,Demersal,Non-quota,1,1,Tusk,1021,USK,2,Demersal (non quota)
+11,Brosme brosme,Tusk(=Cusk),Tusk,Demersal,Non-quota,1,1,Tusk,1021,USK,2,Demersal (non quota)
+12,Pleuronectes platessa,European plaice,Plaice,Demersal,Quota-limited,1,1,Plaice,2312,PLE,1,Demersal (quota limited)
+13,Hippoglossus hippoglossus,Atlantic halibut,Atlantic halibut,Demersal,Non-quota,1,1,Atlantic halibut,2311,HAL,2,Demersal (non quota)
+14,Anarhichas minor,Spotted wolffish (= Catfish),Wolffish,Demersal,Non-quota,1,1,Atlantic catfish,1712,CAS,2,Demersal (non quota)
+15,Anarhichas minor,Spotted wolffish,Wolffish,Demersal,Non-quota,1,1,Atlantic catfish,1712,CAS,2,Demersal (non quota)
+16,Macrourus berglax,Roughhead grenadier,Roughhead grenadier,Demersal,Non-quota,1,1,Roughead grenadier,1061,RHG,2,Demersal (non quota)
+17,Sebastes mentella,Beaked redfish,Redfish,Pelagic,Resident,1,1,Redfish,2203,REB,4,Planktivore
+18,Lophius piscatorius,Angler (= Monk),Anglerfish,Demersal,Quota-limited,1,1,Anglerfish,2411,MON,1,Demersal (quota limited)
+19,Lophius piscatorius,Angler(=Monk),Anglerfish,Demersal,Quota-limited,1,1,Anglerfish,2411,MON,1,Demersal (quota limited)
+20,Nephrops norvegicus,Norway lobster,Norway lobster,Benthic invertebrate,Carnivore,1,1,Norway lobster,2541,NEP,3,Benthos carnivore/scavenge feeder
+21,Merluccius merluccius,European hake,Hake,Demersal,Quota-limited,1,1,Hake,1051,HKE,1,Demersal (quota limited)
+22,Hippoglossoides platessoides,Amer. plaice,Long rough dab,Demersal,Non-quota,1,1,American plaice,2315,PLA,2,Demersal (non quota)
+23,Hippoglossoides platessoides,Amer. plaice(=Long rough dab),Long rough dab,Demersal,Non-quota,1,1,American plaice,2315,PLA,2,Demersal (non quota)
+24,Osteichthyes,Marine fishes nei,Pelagic fishes,Pelagic,Resident,0,0,NA,2919,MZZ,4,Planktivore
+25,Osteichthyes,Marine fishes,Pelagic fishes,Pelagic,Resident,0,0,NA,2919,MZZ,4,Planktivore
+26,Osteichthyes,Diadromous fishes nei,Diadromous clupeoids,Pelagic,Resident,0,0,NA,2919,MZZ,4,Planktivore
+27,Osteichthyes,Finfishes nei,Finfishes,Demersal,Quota-limited,0,0,NA,2919,MZZ,1,Demersal (quota limited)
+28,Osteichthyes,Freshwater fishes nei,Freshwater fishes,Pelagic,Resident,0,0,NA,2919,MZZ,4,Planktivore
+29,Osteichthyes,Groundfishes nei,Groundfishes,Demersal,Quota-limited,0,0,NA,2919,MZZ,1,Demersal (quota limited)
+30,Osteichthyes,Pelagic fishes nei,Pelagic fishes,Pelagic,Resident,0,0,NA,2919,MZZ,4,Planktivore
+31,Pollachius pollachius,Pollack,Pollack,Demersal,Non-quota,1,1,Pollack,1034,POL,2,Demersal (non quota)
+32,Mallotus villosus,Capelin,Capelin,Pelagic,Resident,0,1,Capelin,751,CAP,4,Planktivore
+33,Cancer pagurus,Edible crab,Edible crab,Benthic invertebrate,Carnivore,1,1,Edible Crab,2532,CRE,3,Benthos carnivore/scavenge feeder
+34,Microstomus kitt,Lemon sole,Lemon sole,Demersal,Quota-limited,1,1,Lemon sole,2318,LEM,1,Demersal (quota limited)
+35,Pleuronectiformes,Flatfishes nei,Flatfishes,Demersal,Quota-limited,0,0,NA,2399,FLX,1,Demersal (quota limited)
+36,Molva dypterygia,Blue ling,Blue ling,Demersal,Non-quota,1,1,Blue ling,1024,BLI,2,Demersal (non quota)
+37,Solea solea,Common sole,Sole,Demersal,Quota-limited,1,1,Common sole,2341,SOL,1,Demersal (quota limited)
+38,Argentina spp,Argentines,Argentine,Pelagic,Resident,1,1,Greater silver smelt,741,ARG,4,Planktivore
+39,Coryphaenoides rupestris,Roundnose grenadier,Roundnose grenadier,Demersal,Non-quota,1,1,Roughead grenadier,1062,RNG,2,Demersal (non quota)
+40,Cyclopterus lumpus,Lumpfish (=Lumpsucker),Lumpsucker,Demersal,Non-quota,0,1,Lumpsucker,2221,LUM,2,Demersal (non quota)
+41,Cyclopterus lumpus,Lumpfish (= Lumpsucker),Lumpsucker,Demersal,Non-quota,0,1,Lumpsucker,2221,LUM,2,Demersal (non quota)
+42,Cyclopterus lumpus,Lumpfish(=Lumpsucker),Lumpsucker,Demersal,Non-quota,0,1,Lumpsucker,2221,LUM,2,Demersal (non quota)
+43,Anarhichas lupus,Atlantic wolffish (= Catfish),Wolffish,Demersal,Non-quota,1,1,Atlantic catfish,1711,CAA,2,Demersal (non quota)
+44,Anarhichas lupus,Atlantic wolffish,Wolffish,Demersal,Non-quota,1,1,Atlantic catfish,1711,CAA,2,Demersal (non quota)
+45,Merlangius merlangus,Whiting,Whiting,Demersal,Quota-limited,1,1,Whiting,1039,WHG,1,Demersal (quota limited)
+46,Clupea harengus,Atlantic herring,Herring,Pelagic,Resident,1,1,Herring,611,HER,4,Planktivore
+47,Rajidae,Rays and skates nei,Skates and rays,Demersal,Quota-limited,1,1,Rays,559,RAJ,1,Demersal (quota limited)
+48,Raja spp,Raja rays nei,Skates and rays,Demersal,Quota-limited,1,1,Rays,529,SKA,1,Demersal (quota limited)
+49,Platichthys flesus,European flounder,Flounder,Demersal,Quota-limited,1,1,"Flatfish, flounder",2319,FLE,1,Demersal (quota limited)
+50,Argentina silus,Greater argentine,Argentine,Pelagic,Resident,1,1,Greater silver smelt,742,ARU,4,Planktivore
+51,Micromesistius poutassou,Blue whiting,Blue whiting,Pelagic,Migratory,1,1,Blue whiting,1038,WHB,5,Migratory
+52,Micromesistius poutassou,Blue whiting(=Poutassou),Blue whiting,Pelagic,Migratory,1,1,Blue whiting,1038,WHB,5,Migratory
+53,Phycis blennoides,Greater forkbeard,Greater forkbeard,Demersal,Non-quota,0,1,Forkbeards,1025,GFB,2,Demersal (non quota)
+54,Chimaera monstrosa,Rabbit fish,Rabbit fish,Demersal,Non-quota,0,1,Rabit fish,3111,CMO,2,Demersal (non quota)
+55,Chimaera monstrosa,Rabbit fish (ratfish),Rabbit fish,Demersal,Non-quota,0,1,Rabit fish,3111,CMO,2,Demersal (non quota)
+56,Paralithodes camtschaticus,Red king crab,Red king crab,Benthic invertebrate,Carnivore,0,0,NA,2534,KCD,3,Benthos carnivore/scavenge feeder
+57,Lophiidae,Anglerfishes nei,Anglerfish,Demersal,Quota-limited,1,1,Anglerfish,2499,ANF,1,Demersal (quota limited)
+58,Aphanopus carbo,Black scabbardfish,Black scabbardfish,Demersal,Non-quota,1,1,Black scabbardfish,1912,BSF,2,Demersal (non quota)
+59,Todarodes sagittatus,European flying squid,European flying squid,Pelagic invertebrate,na,1,0,NA,2634,SQE,6,Zooplankton carnivore
+60,Katsuwonus pelamis,Skipjack tuna,Skipjack tuna,Pelagic,Migratory,0,0,NA,2018,SKJ,5,Migratory
+61,Istiophorus albicans,Atlantic sailfish,Atlantic sailfish,Pelagic,Resident,0,0,NA,2031,SAI,4,Planktivore
+62,Limanda limanda,Common dab,Dab,Demersal,Quota-limited,1,1,Dab,2317,DAB,1,Demersal (quota limited)
+63,Squalus acanthias,Picked dogfish,Spurdog,Demersal,Quota-limited,1,1,Spurdog,412,DGS,1,Demersal (quota limited)
+64,Squalus acanthias,Picked(= Spiny)dogfish,Spurdog,Demersal,Quota-limited,1,1,Spurdog,412,DGS,1,Demersal (quota limited)
+65,Scomber scombrus,Atlantic mackerel,Mackerel,Pelagic,Migratory,1,1,Mackerel,2013,MAC,5,Migratory
+66,Boreogadus saida,Polar cod,Polar cod,Demersal,Non-quota,0,0,NA,1035,POC,2,Demersal (non quota)
+67,Glyptocephalus cynoglossus,Witch flounder,Witch flounder,Demersal,Quota-limited,1,1,Witch flounder,2314,WIT,1,Demersal (quota limited)
+68,Raja clavata,Thornback ray,Skates and rays,Demersal,Quota-limited,1,1,Rays,512,RJC,1,Demersal (quota limited)
+69,Polyprion americanus,Wreckfish,Wreckfish,Demersal,Non-quota,0,1,Wreckfish,1622,WRF,2,Demersal (non quota)
+70,Abramis spp,Freshwater breams nei,Freshwater bream,Demersal,Non-quota,0,0,NA,103,FBR,2,Demersal (non quota)
+71,Triglidae,"Gurnards, searobins nei",Gurnards,Demersal,Non-quota,1,0,NA,2211,GUX,2,Demersal (non quota)
+72,Gastropoda,Gastropods nei,Gastropods,Benthic invertebrate,Filter feeder,0,0,NA,2697,GAS,7,Benthos filter/deposit feeder
+73,Cetorhinus maximus,Basking shark,Basking shark,Pelagic,Migratory,0,0,NA,212,BSK,5,Migratory
+74,Gadiformes,Gadiformes nei,Finfishes,Demersal,Quota-limited,0,0,NA,1099,GAD,1,Demersal (quota limited)
+75,Gadiformes,Gadiformes,Finfishes,Demersal,Quota-limited,0,0,NA,1099,GAD,1,Demersal (quota limited)
+76,Palaemonidae,Palaemonid shrimps nei,Palaemonid shrimps nei,Benthic invertebrate,Carnivore,1,0,NA,2525,PAL,3,Benthos carnivore/scavenge feeder
+77,Lamna nasus,Porbeagle,Porbeagle,Demersal,Quota-limited,1,1,Porbeagle,211,POR,1,Demersal (quota limited)
+78,Sprattus sprattus,European sprat,Sprat,Pelagic,Resident,1,1,Sprat,615,SPR,4,Planktivore
+79,Alopias vulpinus,Thresher,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,231,ALV,1,Demersal (quota limited)
+80,Phycis phycis,Forkbeard,Forkbeard,Demersal,Non-quota,1,1,Forkbeards,1026,FOR,2,Demersal (non quota)
+81,Fucus serratus,Toothed wrack,Toothed wrack,Seaweed,na,0,0,NA,2818,FUU,8,Macrophyte
+82,Dicologlossa cuneata,Wedge sole,Wedge sole,Demersal,Non-quota,0,0,NA,2343,CET,2,Demersal (non quota)
+83,Crangonidae,Crangonid shrimps nei,Common shrimp,Benthic invertebrate,Carnivore,1,0,NA,2527,CRN,3,Benthos carnivore/scavenge feeder
+84,Epigonus telescopus,Black cardinal fish,Black cardinal fish,Demersal,Non-quota,0,1,Black cardinal fish,1628,EPI,2,Demersal (non quota)
+85,Trachurus trachurus,Atlantic horse mackerel,Horse mackerel,Pelagic,Migratory,1,1,Horse mackerel,1611,HOM,5,Migratory
+86,Lepidorhombus whiffiagonis,Megrim,Megrim,Demersal,Quota-limited,1,1,Megrims,2351,MEG,1,Demersal (quota limited)
+87,Raja montagui,Spotted ray,Skates and rays,Demersal,Quota-limited,1,1,Rays,513,RJM,1,Demersal (quota limited)
+88,Pecten maximus,Common scallop,Great Atlantic scallop,Benthic invertebrate,Filter feeder,1,1,Great Atlantic Scallop,2621,SCE,7,Benthos filter/deposit feeder
+89,Pecten maximus,Great Atlantic scallop,Great Atlantic scallop,Benthic invertebrate,Filter feeder,1,1,Great Atlantic Scallop,2621,SCE,7,Benthos filter/deposit feeder
+90,Thunnus alalunga,Albacore,Albacore,Pelagic,Migratory,0,1,Albacore,2021,ALB,5,Migratory
+91,Engraulis encrasicolus,European anchovy,Anchovy,Pelagic,Resident,0,1,Anchovy,621,ANE,4,Planktivore
+92,Urophycis chuss,Red hake,Red hake,Demersal,Non-quota,0,0,NA,1028,HKR,2,Demersal (non quota)
+93,Zeus faber,John dory,John dory,Demersal,Non-quota,1,0,NA,1411,JOD,2,Demersal (non quota)
+94,Laminaria hyperborea,North European kelp,North European kelp,Seaweed,na,0,0,NA,2813,LAH,8,Macrophyte
+95,Homarus gammarus,European lobster,European lobster,Benthic invertebrate,Carnivore,1,0,NA,2542,LBE,3,Benthos carnivore/scavenge feeder
+96,Mugilidae,Mullets,Mullet,Demersal,Non-quota,1,0,NA,1511,MUL,2,Demersal (non quota)
+97,Mugilidae,Mullets nei,Mullet,Demersal,Non-quota,1,0,NA,1511,MUL,2,Demersal (non quota)
+98,Trisopterus esmarkii,Norway pout,Norway pout,Pelagic,Resident,1,1,Norway pout,1036,NOP,4,Planktivore
+99,Pagellus erythrinus,Common pandora,Common pandora,Pelagic,Resident,0,0,NA,1642,PAC,4,Planktivore
+100,Sardina pilchardus,European pilchard,European pilchard,Pelagic,Resident,1,1,European pilchard(=Sardine),614,PIL,4,Planktivore
+101,Sardina pilchardus,European pilchard(=Sardine),European pilchard,Pelagic,Resident,1,1,European pilchard(=Sardine),614,PIL,4,Planktivore
+102,Raja microocellata,Small-eyed ray,Skates and rays,Demersal,Non-quota,1,0,NA,526,RJE,2,Demersal (non quota)
+103,Raja undulata,Undulate ray,Skates and rays,Demersal,Quota-limited,1,0,NA,527,RJU,1,Demersal (quota limited)
+104,Scomberesox saurus,Atlantic saury,Atlantic saury,Pelagic,Resident,0,0,NA,921,SAU,4,Planktivore
+105,Galeus melastomus,Blackmouth catshark,Sharks and dogfish,Demersal,Quota-limited,1,1,Blackmouth catshark,312,SHO,1,Demersal (quota limited)
+106,Sardinella spp,Sardinellas nei,Sardinellas,Pelagic,Resident,0,0,NA,612,SIX,4,Planktivore
+107,Solea lascaris,Sand smelt,Sand smelt,Demersal,Non-quota,0,0,NA,2342,SOS,2,Demersal (non quota)
+108,Acipenseridae,Sturgeons nei,Sturgeon,Demersal,Non-quota,0,0,NA,112,STU,2,Demersal (non quota)
+109,Dissostichus eleginoides,Patagonian toothfish,Patagonian toothfish,Demersal,Non-quota,0,0,NA,6151,TOP,2,Demersal (non quota)
+110,Echinus esculentus,European edible sea urchin,European edible sea urchin,Benthic invertebrate,Carnivore,0,0,NA,2662,URS,3,Benthos carnivore/scavenge feeder
+111,Labrus bergylta,Ballan wrasse,Ballan wrasse,Demersal,Non-quota,0,0,NA,1691,USB,2,Demersal (non quota)
+112,Trachinus draco,Greater weever,Greater weever,Demersal,Non-quota,0,0,NA,1661,WEG,2,Demersal (non quota)
+113,Buccinum undatum,Whelk,Whelk,Benthic invertebrate,Filter feeder,1,0,NA,2651,WHE,7,Benthos filter/deposit feeder
+114,Sebastes marinus,Golden redfish,Redfish,Pelagic,Resident,1,1,Redfish,2202,REG,4,Planktivore
+115,NA,Right eye flounders,Witch Flounder,Demersal,Quota-limited,1,0,NA,2329,PLZ,1,Demersal (quota limited)
+116,NA,Northern wolffish,Wolffish,Demersal,Non-quota,1,1,Atlantic catfish,1713,CAB,2,Demersal (non quota)
+117,Psetta maxima,Turbot,Turbot,Demersal,Quota-limited,1,1,Turbot,2354,TUR,1,Demersal (quota limited)
+118,Sebastes spp,Atlantic redfishes,Redfish,Pelagic,Resident,1,1,Redfish,2201,RED,4,Planktivore
+119,Pandalus spp,Pandalus shrimps nei,Northern prawn,Benthic invertebrate,Carnivore,1,1,Northern prawn,2523,PAN,3,Benthos carnivore/scavenge feeder
+120,NA,Pink cusk-eel,Pink cusk-eel,Demersal,Non-quota,0,0,NA,6411,CUS,2,Demersal (non quota)
+121,Raja oxyrinchus,Longnose skate,Longnosed skate,Demersal,Quota-limited,0,1,Skates,516,RJO,1,Demersal (quota limited)
+122,NA,Noble crayfish,Noble crayfish,Benthic invertebrate,Carnivore,0,0,NA,2544,AAS,3,Benthos carnivore/scavenge feeder
+123,NA,Queen crab,Queen crab,Benthic invertebrate,Carnivore,0,0,NA,2536,CRQ,3,Benthos carnivore/scavenge feeder
+124,NA,Norway redfish,Norway redfish,Pelagic,Resident,1,1,Norway redfish,2204,SFV,4,Planktivore
+125,Raja batis,Blue skate,Skates and rays,Demersal,Quota-limited,1,1,Skates,511,RJB,1,Demersal (quota limited)
+126,NA,Freshwater bream,Freshwater bream,Demersal,Non-quota,0,0,NA,116,FBM,2,Demersal (non quota)
+127,NA,White skate,Skates and rays,Demersal,Quota-limited,1,1,Skates,528,RJA,1,Demersal (quota limited)
+128,NA,Stone king crab,Stone king crab,Benthic invertebrate,Carnivore,0,0,NA,2535,KCT,3,Benthos carnivore/scavenge feeder
+129,NA,Southern hake,Southern hake,Demersal,Non-quota,0,0,NA,6312,HKN,2,Demersal (non quota)
+130,NA,Lanternfishes nei,Lanternfishes,Demersal,Non-quota,0,0,NA,6619,LXX,2,Demersal (non quota)
+131,NA,Cuckoo wrasse,Cuckoo wrasse,Demersal,Non-quota,0,0,NA,1695,USI,2,Demersal (non quota)
+132,NA,Round ray,Skates and rays,Demersal,Quota-limited,0,1,Round ray,525,RJY,1,Demersal (quota limited)
+133,Raja radiata,Starry ray,Skates and rays,Demersal,Quota-limited,1,1,Rays,520,RJR,1,Demersal (quota limited)
+134,NA,Arctic char,Arctic char,Demersal,Non-quota,0,0,NA,716,ACH,2,Demersal (non quota)
+135,NA,Frilled shark,Frilled shark,Demersal,Non-quota,0,1,Frilled shark,3321,HXC,2,Demersal (non quota)
+136,NA,Tangle,Tangle,Seaweed,na,0,0,NA,2814,LQD,8,Macrophyte
+137,NA,Sea belt,Sea belt,Demersal,Non-quota,0,0,NA,2812,LQX,2,Demersal (non quota)
+138,NA,Silvery lightfish,Silvery lightfish,Demersal,Non-quota,0,0,NA,641,MAV,2,Demersal (non quota)
+139,NA,Hagfish,Hagfish,Demersal,Non-quota,0,0,NA,3011,MYG,2,Demersal (non quota)
+140,NA,Norwegian krill,Norwegian krill,Pelagic invertebrate,na,0,0,NA,2511,NKR,6,Zooplankton carnivore
+141,Raja hyperborea,Arctic skate,Skates and rays,Demersal,Quota-limited,1,1,Arctic skate,552,RJG,1,Demersal (quota limited)
+142,Raja circularis,Sandy ray,Skates and rays,Demersal,Quota-limited,1,1,Rays,524,RJI,1,Demersal (quota limited)
+143,Ammodytes spp,Sandeels (= Sandlances) nei,Sandeels,Pelagic,Resident,1,1,Sandeel,1811,SAN,4,Planktivore
+144,Lithognathus mormyrus,Sand sole,Sand sole,Demersal,Non-quota,0,0,NA,2342,SOS,2,Demersal (non quota)
+145,Loligo spp,Common squids nei,Common squids,Pelagic invertebrate,na,1,0,NA,2631,SQC,6,Zooplankton carnivore
+146,NA,Knifetooth dogfish,Sharks and dogfish,Demersal,Quota-limited,1,1,Knifetooth dogfish,437,SYR,1,Demersal (quota limited)
+147,NA,Gold-sinny wrasse,Goldsinny-wrasse,Demersal,Non-quota,0,0,NA,1693,TBR,2,Demersal (non quota)
+148,NA,Abalones nei,Abalones,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+149,Pandalus montagui,Aesop shrimp,Shrimps,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+150,NA,African striped grunt,African striped grunt,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+151,Alosa pseudoharengus,Alewife,Shad,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+152,NA,Alfonsino,Alfonsino,Pelagic,Resident,0,1,Alfonsinos,NA,NA,4,Planktivore
+153,Beryx spp,Alfonsinos nei,Alfonsino,Pelagic,Resident,0,1,Alfonsinos,NA,NA,4,Planktivore
+154,NA,"Alfonsinos, etc. nei",Alfonsino,Pelagic,Resident,0,1,Alfonsinos,NA,NA,4,Planktivore
+155,"Alosa alosa, A.fallax",Allis and twaite shads,Shad,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+156,Alosa alosa,Allis shad,Shad,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+157,NA,Alloteuthis spp,Alloteuthis,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+158,Seriola spp,Amberjacks nei,Amberjacks,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+159,NA,American angler,Anglerfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+160,NA,American sea scallop,American sea scallop,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+161,NA,American slipper-limpet,American slipper-limpet,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+162,NA,Anchovy sprat,Anchovy,Pelagic,Resident,0,1,Anchovy,NA,NA,4,Planktivore
+163,Squatina squatina,Angelshark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+164,Squatinidae,"Angelsharks, sand devils nei",Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+165,Dentex angolensis,Angolan dentex,Angolan dentex,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+166,Oxynotus centrina,Angular roughshark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+167,Diplodus annularis,Annular seabream,Annular seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+168,NA,Anomuran decapods nei,Decapods,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+169,NA,Antarctic toothfish,Antarctic toothfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+170,Invertebrata,Aquatic invertebrates nei,Aquatic invertebrates,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+171,NA,Aquatic mammals nei,Aquatic mammals,Mammal,Quota-limited,0,0,NA,NA,NA,9,Cetacean
+172,Plantae,Aquatic plants,Aquatic plants,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+173,Plantae,Aquatic plants nei,Aquatic plants,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+174,NA,Arctic flounder,Arctic flounder,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+175,Argentina sphyraena,Argentine,Argentine,Pelagic,Resident,1,1,Greater silver smelt,NA,ARY,4,Planktivore
+176,NA,Argentine hake,Argentine hake,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+177,NA,Argentine shortfin squid,Argentine shortfin squid,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+178,NA,Aristeid shrimps nei,Shrimps,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+179,NA,Arrowhead dogfish,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+180,NA,Artic cod,Artic cod,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+181,NA,Asp,Asp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+182,NA,Atlantic bay scallop,Atlantic bay scallop,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+183,Makaira nigricans,Blue marlin,Atlantic blue marlin,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+184,Makaira nigricans,Atlantic blue marlin,Atlantic blue marlin,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+185,NA,Atlantic bluefin tuna,Atlantic bluefin tuna,Pelagic,Migratory,0,1,Bluefin tuna,NA,NA,5,Migratory
+186,Sarda sarda,Atlantic bonito,Atlantic bonito,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+187,NA,Atlantic bumper,Atlantic bumber,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+188,NA,Atlantic butterfish,Atlantic butterfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+189,NA,Atlantic ditch shrimp,Shrimps,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+190,Gobius spp,Atlantic gobies nei,Gobies,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+191,NA,Atlantic lizardfish,Lizardfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+192,Brama brama,Atlantic pomfret,Atlantic pomfret,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+193,Sebastes spp,Atlantic redfishes nei,Redfish,Pelagic,Resident,1,1,Redfish,NA,NA,4,Planktivore
+194,Salmo salar,Atlantic salmon,Salmon,Pelagic,Resident,0,1,Atlantic salmon,NA,NA,4,Planktivore
+195,Prionotus spp,Atlantic searobins,Searobins,Demersal,Non-quota,0,0,NA,NA,SRA,2,Demersal (non quota)
+196,NA,Atlantic silverside,Silverside,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+197,NA,Atlantic Spanish mackerel,Atlantic Spanish mackerel,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+198,NA,Atlantic surf clam,Atlantic surf clam,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+199,NA,Atlantic thornyhead,Thornyhead,Demersal,Non-quota,0,1,Atlantic thornyhead,NA,NA,2,Demersal (non quota)
+200,NA,Atlantic tomcod,Tomcod,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+201,Tetrapturus albidus,Atlantic white marlin,Atlantic white marlin,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+202,Pagellus acarne,Axillary seabream,Seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+203,Alepocephalus bairdii,Baird slickhead,Baird's slickhead,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+204,Alepocephalus bairdii,Baird\\'s slickhead,Baird's slickhead,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+205,Alepocephalus bairdii,Baird\'s slickhead,Baird's slickhead,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+206,Alepocephalus bairdii,Baird's slickhead,Baird's slickhead,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+207,NA,Banded carpet shell,Banded carpet shell,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+208,Mitella pollicipes,Barnacle,Barnacle,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+209,Sphyraena spp,Barracudas nei,Barracudas,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+210,NA,Bastard grunt,Bastard grunt,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+211,NA,Bastard halibut,Bastard halibut,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+212,NA,Bean solen,Bean solen,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+213,NA,Belone spp,Belone spp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+214,NA,Benguela hake,Benguela hake,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+215,NA,Bermuda sea chub,Bermuda sea chub,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+216,NA,Bigelow's ray,Skates and rays,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+217,Brachydeuterus auritus,Bigeye grunt,Bigeye grunt,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+218,NA,Bigeye thresher,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+219,Thunnus obesus,Bigeye tuna,Bigeye tuna,Pelagic,Migratory,0,1,Bigeye tuna,NA,NA,5,Migratory
+220,NA,"Bigeyes,glasseyes,bulleyes nei",Sharks and dogfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+221,Hypophthalmichthys nobilis,Bighead carp,Bighead carp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+222,Deania calcea,Birdbeak dogfish,Sharks and dogfish,Demersal,Quota-limited,1,1,Birdbeak dogfish,NA,NA,1,Demersal (quota limited)
+223,Centroscyllium fabricii,Black dogfish,Sharks and dogfish,Demersal,Quota-limited,1,1,Black dogfish,NA,NA,1,Demersal (quota limited)
+224,NA,Black goby,Black goby,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+225,Makaira indica,Black marlin,Black marlin,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+226,NA,Black scorpionfish,Black scorpionfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+227,Spondyliosoma cantharus,Black seabream,Black seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+228,,Black soleNA,Black soleNA,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+229,Menippe mercenaria,Black stone crab,Black stone crab,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+230,Lophius budegassa,Blackbellied angler,Anglerfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+231,Helicolenus dactylopterus,Blackbelly rosefish,Blackbelly rosefish,Demersal,Non-quota,1,1,Blackbelly rosefish,NA,BRF,2,Demersal (non quota)
+232,NA,Blackfin icefish,Blackfin icefish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+233,Thunnus atlanticus,Blackfin tuna,Blackfin tuna,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+234,Pagellus bogaraveo,Blackspot(=red) seabream,Red seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+235,Fucus vesiculosus,Bladder wrack,Bladder wrack,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+236,NA,Bleak,Bleak,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+237,NA,Blonde ray,Skates and rays,Demersal,Quota-limited,1,1,Rays,NA,NA,1,Demersal (quota limited)
+238,Aristeus antennatus,Blue and red shrimp,Shrimps,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+239,Antimora rostrata,Blue antimora,Blue antimora,Demersal,Non-quota,0,1,Blue antimora,NA,NA,2,Demersal (non quota)
+240,NA,Blue butterfish,Blue butterfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+241,Callinectes sapidus,Blue crab,Blue crab,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+242,Trachurus picturatus,Blue jack mackerel,Blue jack mackerel,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+243,Mytilus edulis,Blue mussel,Blue mussel,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+244,NA,Blue runner,Blue runner,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+245,Prionace glauca,Blue shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+246,Alosa aestivalis,Blueback shad,Blueback shad,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+247,Pomatomus saltatrix,Bluefish,Bluefish,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+248,NA,Blue-leg swimcrab,Blue-leg swimcrab,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+249,Helicolenus dactylopterus,Bluemouth,Blackbelly rosefish,Demersal,Non-quota,1,1,Blackbelly rosefish,NA,NA,2,Demersal (non quota)
+250,NA,Bluespotted seabream,Bluespotted seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+251,Hexanchus griseus,Bluntnose sixgill shark,Sharks and dogfish,Demersal,Quota-limited,1,1,Blutnose sixgill shark,NA,NA,1,Demersal (quota limited)
+252,NA,Boarfish,Boarfish,Pelagic,Resident,0,1,Boarfish,NA,NA,4,Planktivore
+253,NA,Boarfishes nei,Boarfish,Pelagic,Resident,0,1,Boarfish,NA,NA,4,Planktivore
+254,NA,Bodianus spp,Bodianus,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+255,Pteroscion peli,Boe drum,Boe drum,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+256,Boops boops,Bogue,Bogue,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+257,NA,Bonga shad,Bonga shad,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+258,NA,Boxlip mullet,Mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+259,NA,Brama spp,Brama spp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+260,Echinorhinus brucus,Bramble shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+261,Mycteroperca spp,Brazilian groupers nei,Brazilian groupers,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+262,Scophthalmus rhombus,Brill,Brill,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+263,Illex coindetii,Broadtail shortfin squid,Broadtail shortfin squid,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+264,NA,Brown moray,Brown moray,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+265,NA,Brown ray,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+266,Phaeophyceae,Brown seaweed,Brown seaweeds,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+267,Phaeophyceae,Brown seaweeds,Brown seaweeds,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+268,Labrus merula,Brown wrasse,Brown wrasse,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+269,Auxis rochei,Bullet tuna,Bullet tuna,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+270,Lota lota,Burbot,Burbot,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+271,Stromateidae,"Butterfishes, pomfrets nei",Butterfishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+272,Gymnura spp,Butterfly rays,Canary dentex,Demersal,Quota-limited,1,1,Rays,NA,NA,1,Demersal (quota limited)
+273,Umbrina canariensis,Canary damsel,Canary damsel,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+274,NA,Canary dentex,Canary dentex,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+275,NA,Canary drum (=Baardman),Canary drum,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+276,NA,Canary drum(=Baardman),Canary drum,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+277,Penaeus kerathurus,Caramote prawn,Caramote prawn,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+278,Carangidae,Carangids nei,Carangids,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+279,Epigonus spp,Cardinal fishes nei,Cardinalfishes,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+280,Apogonidae,"Cardinalfishes, etc. nei",Cardinalfishes,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+281,Ruditapes spp,Carpet shells nei,Carpet shells,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+282,Chondrus crispus,Carragheen (Irish) moss,Carragheen (Irish) moss,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+283,Chondrichthyes,Cartilaginous fishes nei,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+284,Scyliorhinidae,"Catsharks, etc. nei",Sharks and dogfish,Demersal,Quota-limited,0,1,Blackmouth catshark,NA,NA,1,Demersal (quota limited)
+285,Scyliorhinus spp,"Catsharks, nursehounds nei",Sharks and dogfish,Demersal,Quota-limited,1,1,Blackmouth catshark,NA,NA,1,Demersal (quota limited)
+286,Cephalopoda,Cephalopods,Cephalopods,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+287,Cephalopoda,Cephalopods nei,Cephalopods,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+288,NA,Chaceon geryons nei,Chaceon geryons,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+289,NA,Chamber venus,Chamber venus,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+290,Salvelinus spp,Chars nei,Chars,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+291,NA,"Chimaeras, etc. nei",Chimaeras,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+292,NA,Chinese mitten crab,Chinese mitten crab,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+293,Scomber japonicus,Chub mackerel,Chub mackerel,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+294,Bivalvia,"Clams, etc. nei",Clams,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+295,Clupeoidei,Clupeoids nei,Herring,Pelagic,Resident,1,1,Herring,NA,NA,4,Planktivore
+296,Cardiidae,Cockles nei,Cockles,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+297,NA,Comber,Comber,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+298,Serranus spp,Combers nei,Comber,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+299,NA,Combtooth blennies,Combtooth blennies,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+300,NA,Common Atlantic grenadier,Common Atlantic grenadier,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+301,Cyprinus carpio,Common carp,Common carp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+302,Sepia officinalis,Common cuttlefish,Common cuttlefish,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+303,Dentex dentex,Common dentex,Common dentex,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+304,Coryphaena hippurus,Common dolphinfish,Common dolphinfish,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+305,NA,Common eagle ray,Skates and rays,Demersal,Quota-limited,1,1,Rays,NA,NA,1,Demersal (quota limited)
+306,Cerastoderma edule,Common edblie cockle,Cockles,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+307,Cerastoderma edule,Common edible cockle,Cockles,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+308,Glycymeris glycymeris,Common European bittersweet,Common European bittersweet,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+309,Mora moro,Common mora,Common mora,Demersal,Non-quota,1,1,Common mora,NA,NA,2,Demersal (non quota)
+310,Octopus vulgaris,Common octopus,Common octopus,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+311,Littorina littorea,Common periwinkle,Common periwinkle,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+312,Palaemon serratus,Common prawn,Common prawn,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+313,Crangon crangon,Common shrimp,Common shrimp,Benthic invertebrate,Carnivore,1,1,Common shrimp,NA,NA,3,Benthos carnivore/scavenge feeder
+314,Palinurus elephas,Common spiny lobster,Common spiny lobster,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+315,NA,Common stingray,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+316,Diplodus vulgaris,Common two-banded seabream,Common two-banded seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+317,Conger conger,Conger eels nei,European conger,Demersal,Non-quota,1,1,European conger,NA,NA,2,Demersal (non quota)
+318,Conger conger,"Conger eels, etc. nei",European conger,Demersal,Non-quota,1,1,European conger,NA,NA,2,Demersal (non quota)
+319,NA,Copper shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+320,NA,Corkwing wrasse,Corkwing wrasse,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+321,Crangon spp,Crangon shrimps nei,Common shrimp,Benthic invertebrate,Carnivore,1,1,Common shrimp,NA,NA,3,Benthos carnivore/scavenge feeder
+322,Galatheidae,"Craylets, squat lobsters","Craylets, squat lobsters",Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+323,NA,Crest-tail catsharks nei,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+324,NA,Crevalle jack,Crevalle jack,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+325,NA,Crimson pasiphaeid,Crimson pasiphaeid,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+326,Sciaenidae,"Croakers, drums nei","Croakers, drums",Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+327,NA,Crocodile shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+328,Carassius carassius,Crucian carp,Crucian carp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+329,Raja naevus,Cuckoo ray,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+330,Crassostrea spp,Cupped oysters nei,Cupped oysters,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+331,NA,Curled picarel,Curled picarel,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+332,Genypterus spp,Cusk-eels nei,Cusk-eels,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+333,"Sepiidae, Sepiolidae","Cuttlefish, bobtail squids nei","Cuttlefish,bobtail squids",Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+334,"Sepiidae, Sepiolidae","Cuttlefish,bobtail squids nei","Cuttlefish,bobtail squids",Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+335,Cyprinidae,Cyprinids nei,Cyprinids,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+336,NA,Damselfish,Damselfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+337,NA,Dealfish,Dealfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+338,NA,Dealfishes,Dealfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+339,NA,Deep-sea red crab,Deep-sea red crab,Benthic invertebrate,Carnivore,0,1,Deep-sea red crab,NA,NA,3,Benthos carnivore/scavenge feeder
+340,NA,Deep-water Cape hake,Deep-water Cape hake,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+341,NA,Deep-water catsharks,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+342,Parapenaeus longirostris,Deep-water rose shrimp,Deep-water rose shrimp,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+343,Palaemon longirostris,Delta prawn,Delta prawn,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+344,Perciformes,Demersal percomorphs nei,Demersal percomorphs,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+345,Dentex spp,Dentex nei,Dentex,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+346,NA,Devil fish,Devil fish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+347,Clupeoidei,Diadromous clupeoids nei,Diadromous clupeoids,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+348,Squalidae,Dogfish sharks nei,Sharks and dogfish,Demersal,Quota-limited,1,1,Spurdog,NA,NA,1,Demersal (quota limited)
+349,NA,"Dogfish sharks, etc. nei",Sharks and dogfish,Demersal,Quota-limited,1,1,Spurdog,NA,NA,1,Demersal (quota limited)
+350,"Squalidae, Scyliorhinidae",Dogfishes and hounds,Sharks and dogfish,Demersal,Quota-limited,1,1,Spurdog,NA,NA,1,Demersal (quota limited)
+351,"Squalidae, Scyliorhinidae",Dogfishes and hounds nei,Sharks and dogfish,Demersal,Quota-limited,1,1,Spurdog,NA,NA,1,Demersal (quota limited)
+352,Squalus spp,Dogfishes nei,Sharks and dogfish,Demersal,Quota-limited,1,1,Spurdog,NA,NA,1,Demersal (quota limited)
+353,Donax spp,Donax clams,Donax clams,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+354,NA,Dosinia clam,Dosinia clam,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+355,NA,Dragonet,Dragonet,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+356,NA,Duckbill barracudina,Duckbill barracudina,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+357,Palmaria palmata,Dulse,Dulse,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+358,Epinephelus marginatus,Dusky grouper,Dusky grouper,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+359,NA,Dusky shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+360,Myliobatidae,Eagle rays,Skates and rays,Demersal,Quota-limited,1,1,Rays,NA,NA,1,Demersal (quota limited)
+361,Echinodermata,Echinoderms,Echinoderms,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+362,Zoarces viviparus,Eelpout,Eelpout,Demersal,Non-quota,0,1,Eelpouts,NA,NA,2,Demersal (non quota)
+363,Lycodes spp,Eelpouts,Eelpout,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+364,NA,Electric ray,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+365,Torpedinidae,Electric rays nei,Skates and rays,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+366,NA,Elegant cuttlefish,Elegant cuttlefish,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+367,NA,Escolar,Escolar,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+368,NA,European barracuda,European barracuda,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+369,NA,European common squid,European common squid,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+370,Conger conger,European conger,European conger,Demersal,Non-quota,1,1,European conger,NA,NA,2,Demersal (non quota)
+371,Anguilla anguilla,European eel,European eel,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+372,Ostrea edulis,European flat oyster,European flat oyster,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+373,Perca fluviatilis,European perch,European perch,Demersal,Non-quota,0,1,European pearch,NA,NA,2,Demersal (non quota)
+374,NA,European razor clam,European razor clam,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+375,Dicentrarchus labrax,European seabass,Seabass,Demersal,Non-quota,1,1,Seabass,NA,NA,2,Demersal (non quota)
+376,Osmerus eperlanus,European smelt,European smelt,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+377,NA,European squid,European squid,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+378,Coregonus lavaretus,European whitefish,European whitefish,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+379,Caranx rhonchus,False scad,False scad,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+380,NA,Flat and cupped oysters nei,Flat oysters,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+381,Ostrea spp,Flat oysters nei,Flat oysters,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+382,NA,Flathead grey mullet,Flathead grey mullet,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+383,Dilsea carnosa,Fleshy dilsea,Fleshy dilsea,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+384,NA,Flyingfishes nei,Flyingfishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+385,Phycis spp,Forkbeards nei,Forkbeard,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+386,NA,Fourbeard rockling,Fourbeard rockling,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+387,Lepidorhombus boscii,Four-spot megrim,Megrim,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+388,NA,Frigate and bullet tunas,Frigate tuna,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+389,Auxis thazard,Frigate tuna,Frigate tuna,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+390,NA,Fringescale sardinella,Fringescale sardinella,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+391,NA,Fucus spp,Fucus spp,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+392,Belone belone,Garfish,Garfish,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+393,Gelidium spp,Gelidium seaweeds,Gelidium seaweeds,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+394,Gelidium corneum,Giant gelidium,Gelidium seaweeds,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+395,Aristaeomorpha foliacea,Giant red shrimp,Giant red shrimp,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+396,NA,Giant tiger prawn,Giant tiger prawn,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+397,Sparus aurata,Gilthead seabream,Gilthead seabream,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+398,NA,Glasseye,Glasseye,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+399,NA,Gobies nei,Gobies,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+400,NA,Golden carpet shell,Golden carpet shell,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+401,NA,Golden grey mullet,Mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+402,Macquaria ambigua,Golden perch,Golden perch,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+403,NA,Goldfish,Goldfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+404,NA,Goldsinny-wrasse,Goldsinny-wrasse,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+405,Lepas spp,Goose barnacles,Goose barnacles,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+406,NA,Great lanternshark,Great lanternshark,Demersal,Quota-limited,0,1,Great lantern shark,NA,NA,1,Demersal (quota limited)
+407,Pecten sp,Great Mediterranean scallop,Great Mediterranean scallop,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+408,Seriola dumerili,Greater amberjack,Greater amberjack,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+409,Carcinus maenas,Green crab,Green crab,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+410,NA,Green sea urchin,Green sea urchin,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+411,NA,Green seaweeds,Green seaweeds,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+412,Gadus ogac,Greenland cod,Greenland cod,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+413,Somniosus microcephalus,Greenland shark,Sharks and dogfish,Demersal,Quota-limited,1,1,Greenland shark,NA,NA,1,Demersal (quota limited)
+414,NA,Grenadiers nei,Grenadiers,Demersal,Non-quota,1,1,Grenadier,NA,NA,2,Demersal (non quota)
+415,NA,"Grenadiers, rattails nei",Grenadiers,Demersal,Non-quota,1,1,Grenadier,NA,NA,2,Demersal (non quota)
+416,Eutrigla gurnardus,Grey gurnard,Gurnards,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+417,Balistes carolinensis,Grey triggerfish,Grey triggerfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+418,Ruditapes decussatus,Grooved carpet shell,Grooved carpet shell,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+419,NA,Grooved sea squirt,Grooved sea squirt,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+420,Epinephelus spp,Groupers nei,Groupers,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+421,Serranidae,"Groupers, seabasses nei",Groupers,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+422,Haemulidae (=Pomadasyidae),"Grunts, sweetlips nei","Grunts, sweetlips",Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+423,Rhinobatos spp,Guitarfishes nei,Guitarfishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+424,Centrophorus granulosus,Gulper shark,Sharks and dogfish,Demersal,Quota-limited,1,1,Gulper shark,NA,NA,1,Demersal (quota limited)
+425,Trigla spp,Gurnards nei,Gurnards,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+426,NA,"Hairtails, cutlassfishes nei","Hairtails, cutlassfishes",Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+427,NA,"Hairtails, scabbardfishes nei","Hairtails, cutlassfishes",Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+428,Merluccius spp,Hakes nei,Hake,Demersal,Quota-limited,1,1,Hake,NA,NA,1,Demersal (quota limited)
+429,NA,Halfspined flathead,Halfspined flathead,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+430,NA,Hammerhead sharks nei,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+431,NA,Hapuku wreckfish,Hapuku wreckfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+432,Meretrix spp,Hard clams nei,Hard clams nei,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+433,NA,"Herrings, sardines nei",Herring,Pelagic,Resident,1,1,Herring,NA,NA,4,Planktivore
+434,NA,Homarus spp,Homarus spp,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+435,NA,Hooknose,Hooknose,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+436,NA,Horned and musky octopuses,Horned and musky octopuses,Pelagic invertebrate,na,0,0,NA,NA,NA,6,Zooplankton carnivore
+437,NA,Horned octopus,Horned octopus,Pelagic invertebrate,na,0,0,NA,NA,NA,6,Zooplankton carnivore
+438,NA,Horse mussels,Horse mussels,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+439,Triakidae,"Houndsharks,smoothhounds nei",Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+440,Coregonus oxyrinchus,Houting,Houting,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+441,Chlamys islandica,Iceland scallop,Iceland scallop,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+442,NA,Imperial blackfish,Imperial blackfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+443,NA,Indian white prawn,Indian white prawn,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+444,NA,Inshore squids nei,Inshore squids nei,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+445,NA,Intermediate scabbardfish,Intermediate scabbardfish,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+446,NA,Island grouper,Island grouper,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+447,Trachurus spp,Jack and horse mackerels nei,Horse mackerel,Pelagic,Migratory,1,1,Horse mackerel,NA,NA,5,Migratory
+448,Caranx spp,"Jacks, crevalles nei",Jacks and crevalles,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+449,Ruditapes philippinarum,Japanese carpet shell,Japanese carpet shell,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+450,Laminariaceae,Kelps nei,Kelps nei,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+451,Paralithodes spp,King crabs,King crabs,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+452,NA,"King crabs, stone crabs nei","King crabs, stone crabs nei",Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+453,Genypterus capensis,Kingklip,Kingklip,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+454,Dalatias licha,Kitefin shark,Sharks and dogfish,Demersal,Quota-limited,1,1,Kitefin shark,NA,NA,1,Demersal (quota limited)
+455,Rhinochimaera spp,Knife-nosed chimaeras,Knife-nosed chimaeras,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+456,NA,Knobbed triton,Knobbed triton,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+457,Penaeus japonicus,Kuruma prawn,Kuruma prawn,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+458,NA,Kyphosus sea chubs nei,Kyphosus sea chubs nei,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+459,Petromyzontidae,Lampreys nei,Lampreys,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+460,Etmopterus spp,Lanternsharks nei,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+461,Dentex macrophthalmus,Large-eye dentex,Large-eye dentex,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+462,NA,Large-eyed rabbitfish,Large-eyed rabbitfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+463,Trichiurus lepturus,Largehead hairtail,Largehead hairtail,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+464,NA,Large-scaled gurnard,Gurnards,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+465,Centrophorus squamosus,Leafscale gulper shark,Sharks and dogfish,Demersal,Quota-limited,1,1,Leafscale gulper shark,NA,NA,1,Demersal (quota limited)
+466,NA,Leaping mullet,Mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+467,Lichia amia,Leerfish,Leerfish,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+468,Bothidae,Lefteye flounders nei,Flounder,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+469,NA,Lesser slipper lobster,Lesser slipper lobster,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+470,NA,Lesser weever,Lesser weever,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+471,Patella spp,Limpets nei,Limpets nei,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+472,Molva spp,Lings nei,Ling,Demersal,Non-quota,1,1,Ling,NA,NA,2,Demersal (non quota)
+473,Lithothamnion spp,Lithothamnion,Lithothamnion,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+474,NA,Little sleeper shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+475,Euthynnus alletteratus,Little tunny(=Atl.black skipj),Little tunny(=Atl.black skipj),Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+476,NA,Lobsters nei,Lobsters nei,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+477,NA,Longbill spearfish,Longbill spearfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+478,NA,Longfin codling,Longfin codling,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+479,NA,Longfin gurnard,Gurnards,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+480,NA,Longfin squid,Longfin squid,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+481,NA,Longfin yellowtail,Longfin yellowtail,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+482,NA,Longnose spurdog,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+483,NA,Longnose velvet dogfish,Sharks and dogfish,Demersal,Quota-limited,0,1,Longnose velvet dogfish,NA,NA,1,Demersal (quota limited)
+484,Raja oxyrinchus,Longnosed skate,Longnosed skate,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+485,NA,Longspine snipefish,Longspine snipefish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+486,NA,Lowfin gulper shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+487,NA,Lusitanian toadfish,Lusitanian toadfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+488,NA,Mackerel sharks,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+489,NA,"Mackerel sharks,porbeagles nei",Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+490,Scombroidei,Mackerel-like fishes nei,Mackerel,Pelagic,Migratory,1,0,NA,NA,NA,5,Migratory
+491,Scombridae,Mackerels nei,Mackerel,Pelagic,Migratory,1,1,Mackerel,NA,NA,5,Migratory
+492,Mactridae,Mactra surf clams nei,Mactra surf clams nei,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+493,NA,Mako sharks,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+494,Corbicula manilensis,Manila clam,Manila clam,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+495,NA,Marbled electric ray,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+496,Brachyura,Marine crabs,Crabs,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+497,Brachyura,Marine crabs nei,Crabs,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+498,Crustacea,Marine crustaceans nei,Marine crustaceans,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+499,Mollusca,Marine molluscs,Marine molluscs,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+500,Mollusca,Marine molluscs nei,Marine molluscs,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+501,NA,Marine worms,Marine worms,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+502,Istiophoridae,"Marlins,sailfishes,etc. nei","Marlins,sailfishes",Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+503,NA,Marphysa sanguinea,Marphysa sanguinea,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+504,NA,Mature dosinia,Mature dosinia,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+505,Argyrosomus regius,Meagre,Meagre,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+506,NA,Mediterranean horse mackerel,Horse mackerel,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+507,NA,Mediterranean moray,Mediterranean moray,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+508,NA,Mediterranean mussel,Mediterranean mussel,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+509,NA,Mediterranean rainbow wrasse,Mediterranean rainbow wrasse,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+510,NA,Mediterranean scaldfish,Mediterranean scaldfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+511,NA,Mediterranean slimehead,Mediterranean slimehead,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+512,NA,Mediterranean slipper lobster,Mediterranean slipper lobster,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+513,NA,Mediterranean spearfish,Mediterranean spearfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+514,NA,Mediterranean starry ray,Skates and rays,Demersal,Quota-limited,1,1,Rays,NA,NA,1,Demersal (quota limited)
+515,Lepidorhombus spp,Megrims nei,Megrim,Demersal,Quota-limited,1,1,Megrims,NA,NA,1,Demersal (quota limited)
+516,NA,Melanocharacidium blennioides,Melanocharacidium blennioides,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+517,Lophius spp,Monkfishes nei,Anglerfish,Demersal,Quota-limited,1,1,Anglerfish,NA,NA,1,Demersal (quota limited)
+518,Acanthurus monroviae,Monrovia doctorfish,Monrovia doctorfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+519,Moridae,Moras nei,Morays,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+520,Muraenidae,Morays,Morays,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+521,Dentex maroccanus,Morocco dentex,Morocco dentex,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+522,NA,Mottled grouper,Mottled grouper,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+523,NA,Mouse catshark,Sharks and dogfish,Demersal,Quota-limited,1,1,Mouse catshark,NA,NA,1,Demersal (quota limited)
+524,NA,Mugil spp,Mugil spp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+525,Murex spp,Murex,Murex,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+526,NA,Musky octopus,Musky octopus,Pelagic invertebrate,na,0,0,NA,NA,NA,6,Zooplankton carnivore
+527,NA,Mytilus mussels nei,Mytilus spp,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+528,NA,Mytilus spp,Mytilus spp,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+529,Scomberomorus commerson,Narrow-barred Spanish mackerel,Narrow-barred Spanish mackerel,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+530,Natantia,Natantian decapods nei,Natantian decapods nei,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+531,Eleginus navaga,Navaga(=Wachna cod),Wachna cod,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+532,NA,Neon flying squid,Neon flying squid,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+533,Porphyra spp,Nori nei,Nori,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+534,Ascophyllum nodosum,North Atlantic rockweed,North Atlantic rockweed,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+535,Thunnus thynnus,Northern bluefin tuna,Northern bluefin tuna,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+536,NA,Northern cods nei,Northern cods,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+537,NA,Northern horse mussel,Northern horse mussel,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+538,Esox lucius,Northern pike,Northern pike,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+539,Mercenaria mercenaria,Northern quahog(=Hard clam),Northern quahog,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+540,Illex illecebrosus,Northern shortfin squid,Northern shortfin squid,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+541,NA,Norwegian egg cockle,Norwegian egg cockle,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+542,NA,Norwegian skate,Skates and rays,Demersal,Quota-limited,1,1,Norwegian skate,NA,NA,1,Demersal (quota limited)
+543,Scyliorhinus stellaris,Nursehound,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+544,Arctica islandica,Ocean quahog,Ocean quahog,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+545,Mola mola,Ocean sunfish,Ocean sunfish,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+546,NA,Oceanic whitetip shark,Sharks and dogfish,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+547,Octopus spp,Octopuses nei,Octopuses,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+548,Octopodidae,"Octopuses, etc. nei",Octopuses,Pelagic invertebrate,na,0,0,NA,NA,NA,6,Zooplankton carnivore
+549,Pontinus kuhlii,Offshore rockfish,Offshore rockfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+550,Ruvettus pretiosus,Oilfish,Oilfish,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+551,NA,Ommastrephidae squids nei,Squids nei,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+552,Lampris guttatus,Opah,Opah,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+553,Hoplostethus atlanticus,Orange roughy,Orange roughy,Demersal,Non-quota,0,1,Orange roughy,NA,NA,2,Demersal (non quota)
+554,Leuciscus idus,Orfe(=Ide),Orfe,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+555,NA,Ornate wrasse,Ornate wrasse,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+556,Spisula ovalis,Oval surf clam,Oval surf clam,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+557,Crassostrea gigas,Pacific cupped oyster,Pacific cupped oyster,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+558,NA,Pacific herring,Pacific herring,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+559,Palinurus spp,Palinurid spiny lobsters nei,Palinurid spiny lobsters nei,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+560,NA,Pandalid shrimps nei,Pandalid shrimps nei,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+561,NA,Pandoras nei,Pandoras nei,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+562,Pagrus spp,Pargo breams nei,Pargo breams nei,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+563,NA,Paromola,Paromola,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+564,Sparisoma cretense,Parrotfish,Parrotfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+565,NA,Patchwork lampfishes,Patchwork lampfishes,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+566,Perciformes,Pelagic percomorphs nei,Pelagic fishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+567,Penaeus spp,Penaeid shrimps nei,Penaeid shrimps,Benthic invertebrate,Carnivore,1,1,‘Penaeus' shrimps,NA,NA,3,Benthos carnivore/scavenge feeder
+568,NA,Penaeus shrimps nei,Penaeid shrimps,Benthic invertebrate,Carnivore,1,1,‘Penaeus' shrimps,NA,NA,3,Benthos carnivore/scavenge feeder
+569,NA,Peppery furrow,Peppery furrow,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+570,NA,Percoids nei,Percoids,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+571,Littorina spp,Periwinkles,Periwinkles,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+572,Littorina spp,Periwinkles nei,Periwinkles,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+573,NA,Picarel,Picarel,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+574,Spicara spp,Picarels nei,Picarel,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+575,NA,Pike,Pike,Demersal,Quota-limited,1,1,Pike,NA,NA,1,Demersal (quota limited)
+576,Stizostedion lucioperca,Pike-perch,Pike-perch,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+577,NA,Pink cuttlefish,Pink cuttlefish,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+578,NA,Pink dentex,Pink dentex,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+579,Palinurus mauritanicus,Pink spiny lobster,Pink spiny lobster,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+580,Oncorhynchus gorbuscha,Pink(=Humpback)salmon,Salmon,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+581,Trigla lyra,Piper gurnard,Gurnards,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+582,NA,Pitted stonefish,Pitted stonefish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+583,Orcynopsis unicolor,Plain bonito,Plain bonito,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+584,NA,Pod razor shell,Pod razor shell,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+585,NA,Pomadasys spp,Pomadasys spp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+586,NA,Pompano,Pompano,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+587,Trachinotus spp,Pompanos nei,Pompano,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+588,Trisopterus minutus,Poor cod,Poor cod,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+589,Sparidae,"Porgies, seabreams nei","Porgies, seabreams",Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+590,Centroscymnus coelolepis,Portuguese dogfish,Sharks and dogfish,Demersal,Quota-limited,1,1,Portuguese dogfish,NA,NA,1,Demersal (quota limited)
+591,Portunus spp,Portunus swimcrabs nei,Portunus swimcrabs nei,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+592,Trisopterus luscus,Pouting(=Bib),Pouting,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+593,NA,Precious corals nei,Precious corals nei,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+594,Venerupis pullastra,Pullet carpet shell,Pullet carpet shell,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+595,NA,Purple dye murex,Purple dye murex,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+596,Aequipecten opercularis,Queen scallop,Queen scallop,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+597,NA,Queen snapper,Queen snapper,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+598,NA,Rainbow smelt,Rainbow smelt,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+599,Oncorhynchus mykiss,Rainbow trout,Rainbow trout,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+600,Hydrolagus spp,Ratfishes nei,Ratfishes,Demersal,Non-quota,0,0,NA,NA,HYD,2,Demersal (non quota)
+601,NA,"Rays, stingrays, mantas nei",Skates and rays,Demersal,Quota-limited,1,1,Rays,NA,NA,1,Demersal (quota limited)
+602,Solen spp,Razor clams nei,Razor clams nei,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+603,NA,"Razor clams, knife clams nei","Razor clams, knife clams nei",Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+604,NA,Red bandfish,Red bandfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+605,NA,Red codling,Red codling,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+606,Geryon quinquedens,Red crab,Red crab,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+607,Delesseria sanguinea,Red delesseria,Red delesseria,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+608,Chelidonichthys cuculus,Red gurnard,Gurnards,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+609,Mullus surmuletus,Red mullet,Mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+610,Pagellus bellottii,Red pandora,Red pandora,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+611,Pagrus pagrus,Red porgy,Red porgy,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+612,Scorpaena scrofa,Red scorpionfish,Red scorpionfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+613,Rhodophyceae,Red seaweeds,Red seaweeds,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+614,NA,Red starfish,Red starfish,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+615,NA,Red swamp crawfish,Red swamp crawfish,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+616,Pagrus auriga,Redbanded seabream,Redbanded seabream,Demersal,Non-quota,1,1,Red Seabream,NA,NA,2,Demersal (non quota)
+617,NA,Redfish,Redfish,Pelagic,Resident,1,1,Redfish,NA,NA,4,Planktivore
+618,NA,Redspotted shrimp,Redspotted shrimp,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+619,Carcharhinidae,Requiem sharks nei,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+620,NA,Rhinobatos punctifer,Rhinobatos punctifer,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+621,NA,Righteye flounders nei,Witch Flounder,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+622,NA,Risso smooth-head,Risso's smooth-head,Demersal,Non-quota,0,1,Risso's smooth-head,NA,NA,2,Demersal (non quota)
+623,NA,Risso\\'s smooth-head,Risso's smooth-head,Demersal,Non-quota,0,1,Risso's smooth-head,NA,NA,2,Demersal (non quota)
+624,NA,Risso's smooth-head,Risso's smooth-head,Demersal,Non-quota,0,1,Risso's smooth-head,NA,NA,2,Demersal (non quota)
+625,Anguilla spp,River eels nei,River eels nei,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+626,NA,River lamprey,River lamprey,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+627,Rutilus rutilus,Roach,Roach,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+628,NA,Roaches nei,Roaches nei,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+629,NA,Rock cook,Rock cook,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+630,Gaidropsarus spp,Rocklings nei,Rocklings nei,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+631,NA,Roudi escolar,Roudi escolar,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+632,NA,Rough limpet,Rough limpet,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+633,NA,Rough longnose dogfish,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+634,NA,Rough skate,Skates and rays,Demersal,Quota-limited,1,1,Skates,NA,NA,1,Demersal (quota limited)
+635,NA,Roughsnout grenadier,Roughsnout grenadier,Demersal,Non-quota,1,1,Roundnose grenadier,NA,NA,2,Demersal (non quota)
+636,NA,Roughtail stingray,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+637,NA,Round sardinella,Round sardinella,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+638,NA,Royal cucumber,Royal cucumber,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+639,Panulirus regius,Royal spiny lobster,Royal spiny lobster,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+640,Plectorhinchus mediterraneus,Rubberlip grunt,Rubberlip grunt,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+641,NA,Rudd,Rudd,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+642,NA,Ruffe,Ruffe,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+643,NA,"Ruffs, barrelfishes nei",Ruffe,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+644,NA,Sabanejewia balcanica,Sabanejewia balcanica,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+645,Oblada melanura,Saddled seabream,Saddled seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+646,NA,Sailfin roughshark,Sailfin roughshark,Demersal,Quota-limited,0,1,Sailfin roughshark,NA,NA,1,Demersal (quota limited)
+647,NA,Sailray,Sailray,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+648,Sarpa salpa,Salema,Salema,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+649,Salmonoidei,Salmonids nei,Salmon,Pelagic,Resident,0,1,Atlantic salmon,NA,NA,4,Planktivore
+650,NA,Salmonoids nei,Salmon,Pelagic,Resident,0,1,Atlantic salmon,NA,NA,4,Planktivore
+651,NA,Salps,Salps,Pelagic invertebrate,na,0,0,NA,NA,NA,6,Zooplankton carnivore
+652,Mya arenaria,Sand gaper,Sand gaper,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+653,NA,Sand steenbras,Sand steenbras,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+654,NA,Sand tiger shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+655,Carcharhinus plumbeus,Sandbar shark,Sharks and dogfish,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+656,Ammodytes spp,Sandeels(=Sandlances) nei,Sandeels,Pelagic,Resident,1,1,Sandeel,NA,NA,4,Planktivore
+657,NA,Sardinia coral,Sardinia coral,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+658,Diplodus spp,Sargo breams nei,Sargo breams nei,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+659,Scomberesocidae,Sauries nei,Sauries,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+660,NA,Scalloped hammerhead,Scalloped hammerhead,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+661,Pectinidae,Scallops,Great Atlantic scallop,Benthic invertebrate,Filter feeder,1,1,Great Atlantic Scallop,NA,NA,7,Benthos filter/deposit feeder
+662,Pectinidae,Scallops nei,Great Atlantic scallop,Benthic invertebrate,Filter feeder,1,1,Great Atlantic Scallop,NA,NA,7,Benthos filter/deposit feeder
+663,Lepidotrigla brachyoptera,Scaly gurnard,Gurnards,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+664,Plesiopenaeus edwardsianus,Scarlet shrimp,Scarlet shrimp,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+665,NA,Scomber mackerels nei,Mackerel,Pelagic,Migratory,1,1,Mackerel,NA,NA,5,Migratory
+666,Scorpaenidae,Scorpionfishes nei,Scorpionfishes,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+667,Scorpaena spp,"Scorpionfishes, rockfishes nei",Scorpionfishes,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+668,Myoxocephalus spp,Sculpins,Sculpins,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+669,NA,Scup,Scup,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+670,NA,Sea catfishes nei,Catfishes,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+671,Holothurioidea,Sea cucumbers nei,Sea cucumbers nei,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+672,NA,Sea lamprey,Sea lamprey,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+673,Ulva lactuca,Sea lettuce,Sea lettuce,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+674,Mytilidae,Sea mussels nei,Sea mussels,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+675,NA,Sea thong,Sea thong,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+676,Salmo trutta,Sea trout,Sea trout,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+677,Strongylocentrotus spp,Sea urchins nei,Sea urchins,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+678,Echinoidea,"Sea urchins, etc. nei",Sea urchins,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+679,Dicentrarchus spp,Seabasses nei,Seabass,Demersal,Non-quota,1,1,Seabass,NA,NA,2,Demersal (non quota)
+680,Algae,Seaweeds nei,Seaweeds,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+681,Scomberomorus spp,Seerfishes nei,Seerfishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+682,Merluccius senegalensis,Senegalese hake,Senegalese hake,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+683,Solea senegalensis,Senegalese sole,Senegalese sole,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+684,NA,Sevenstar flying squid,Sevenstar flying squid,Pelagic invertebrate,na,0,0,NA,NA,NA,6,Zooplankton carnivore
+685,Alosa spp,Shads nei,Shad,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+686,Raja fullonica,Shagreen ray,Skates and rays,Demersal,Quota-limited,1,1,Rays,NA,NA,1,Demersal (quota limited)
+687,NA,Sharks,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+688,NA,"Sharks, rays, skates, etc. nei",Skates and rays,Demersal,Quota-limited,1,1,Skates,NA,NA,1,Demersal (quota limited)
+689,NA,Sharpnose sevengill shark,Sharks and dogfish,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+690,Diplodus puntazzo,Sharpsnout seabream,Sharpsnout seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+691,Umbrina cirrosa,Shi drum,Shi drum,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+692,Isurus oxyrinchus,Shortfin mako,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+693,NA,Shortfin squids nei,Shortfin squids,Pelagic invertebrate,na,1,1,Short fin squid,NA,NA,6,Zooplankton carnivore
+694,Centroscymnus cryptacanthus,Shortnose velvet dogfish,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+695,NA,Sichel,Sichel,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+696,NA,Silky shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+697,Hypophthalmichthys molitrix,Silver carp,Silver carp,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+698,NA,Silver croaker,Silver croaker,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+699,Merluccius bilinearis,Silver hake,Silver hake,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+700,Lepidopus caudatus,Silver scabbardfish,Silver scabbardfish,Demersal,Non-quota,1,1,Silver scabbardfish,NA,NA,2,Demersal (non quota)
+701,Atherinidae,Silversides(=Sand smelts) nei,Sand smelt,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+702,Zenopsis conchifer,Silvery John dory,Silvery John dory,Pelagic,Resident,1,0,NA,NA,NA,4,Planktivore
+703,NA,Silvery pout,Silvery pout,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+704,NA,"Skates and rays, nei.",Skates and rays,Demersal,Quota-limited,1,1,Skates,NA,NA,1,Demersal (quota limited)
+705,NA,Slender guitarfish,Slender guitarfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+706,Trachichthyidae,Slimeheads nei,Slimeheads,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+707,Scyllaridae,Slipper lobsters nei,Slipper lobsters,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+708,NA,Small red scorpionfish,Small red scorpionfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+709,Scyliorhinus canicula,Small-spotted catshark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+710,NA,Smooth callista,Smooth callista,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+711,Sphyrna zygaena,Smooth hammerhead,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+712,Mustelus mustelus,Smooth-hound,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+713,Mustelus spp,Smooth-hounds nei,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+714,NA,"Snake mackerels, escolars nei","Snake mackerels, escolars",Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+715,NA,Snappers nei,Snappers,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+716,Macroramphosidae,Snipefishes nei,Snipefishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+717,Thyrsites atun,Snoek,Snoek,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+718,NA,Sockeye(=Red)salmon,Salmon,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+719,NA,Solea spp,Sole,Demersal,Quota-limited,1,1,Common sole,NA,NA,1,Demersal (quota limited)
+720,Solen spp,Solen razor clams nei,Razor clams nei,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+721,NA,Solenette,Solenette,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+722,Soleidae,Soles,Sole,Demersal,Quota-limited,1,1,Common sole,NA,NA,1,Demersal (quota limited)
+723,Soleidae,Soles nei,Sole,Demersal,Quota-limited,1,1,Common sole,NA,NA,1,Demersal (quota limited)
+724,NA,Solid surf clam,Solid surf clam,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+725,Pomadasys jubelini,Sompat grunt,Sompat grunt,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+726,NA,Southern blue whiting,Southern blue whiting,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+727,NA,Southern bluefin tuna,Southern bluefin tuna,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+728,NA,Southern pink shrimp,Southern pink shrimp,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+729,NA,Southern spiny lobster,Southern spiny lobster,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+730,NA,Spaniblennius riodourensis,Spaniblennius riodourensis,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+731,NA,Spanish ling,Spanish ling,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+732,NA,Spectrunculus grandis,Spectrunculus grandis,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+733,Maja squinado,Spinous spider crab,Spinous spider crab,Benthic invertebrate,Carnivore,1,1,Spinous spider crab,NA,NA,3,Benthos carnivore/scavenge feeder
+734,NA,Spiny butterfly ray,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+735,Lepidotrigla dieuzeidei,Spiny gurnard,Gurnards,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+736,Palinuridae,Spiny lobsters nei,Spiny lobsters nei,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+737,Psettodes bennettii,Spiny turbot,Spiny turbot,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+738,NA,Spiny vase,Spiny vase,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+739,NA,Spinytail skate,Skates and rays,Demersal,Non-quota,0,1,Skates,NA,NA,2,Demersal (non quota)
+740,NA,Splendid alfonsino,Splendid alfonsino,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+741,NA,Spottail mantis squillid,Spottail mantis squillid,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+742,NA,Spotted flounder,Spotted flounder,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+743,NA,Spotted ratfish,Spotted ratfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+744,Dicentrarchus punctatus,Spotted seabass,Seabass,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+745,Deania calcea,Squale savate,Sharks and dogfish,Demersal,Quota-limited,1,1,Birdbeak dogfish,NA,NA,1,Demersal (quota limited)
+746,Cynoscion regalis,Squeteague(=Gray weakfish),Gray weakfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+747,Ommastrephidae,Squids nei,Squids nei,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+748,NA,Squillids nei,Squillids nei,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+749,NA,St. Pauls fingerfin,St. Pauls fingerfin,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+750,Asteroidea,Starfishes nei,Starfishes nei,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+751,Uranoscopus spp,Stargazers,Stargazers,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+752,Uranoscopus spp,Stargazer,Stargazers,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+753,NA,Starry skate,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+754,Mustelus asterias,Starry smooth-hound,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+755,Gasterosteus spp,Sticklebacks,Sticklebacks,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+756,Dasyatis spp,Stingrays nei,Skates and rays,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+757,Dasyatidae,"Stingrays, butterfly rays nei",Skates and rays,Demersal,Quota-limited,0,0,NA,NA,NA,1,Demersal (quota limited)
+758,Paracentrotus lividus,Stony sea urchin,Stony sea urchin,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+759,NA,Stout beardfish,Stout beardfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+760,NA,Straightnose rabbitfish,Straightnose rabbitfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+761,Chelidonichthys lastoviza,Streaked gurnard,Gurnards,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+762,Morone saxatilis,Striped bass,Seabass,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+763,NA,Striped marlin,Striped marlin,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+764,NA,Striped mullet,Striped mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+765,NA,Striped red shrimp,Striped red shrimp,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+766,Chamelea gallina,Striped venus,Striped venus,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+767,Acipenser sturio,Sturgeon,Sturgeon,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+768,NA,Subtruncate surf clam,Subtruncate surf clam,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+769,Mola spp,Sunfish,Sunfish,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+770,NA,Surf clams nei,Surf clams nei,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+771,Mullus spp,Surmullet,Mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+772,Mullus spp,Surmullets(=Red mullets) nei,Mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+773,NA,Swallowtail seaperch,Swallowtail seaperch,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+774,Callinectes spp,Swimcrabs nei,Swimcrabs,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+775,NA,"Swimming crabs, etc. nei",Swimcrabs,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+776,NA,Sword razor shell,Sword razor shell,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+777,Xiphias gladius,Swordfish,Swordfish,Pelagic,Migratory,0,1,Swordfish,NA,NA,5,Migratory
+778,NA,Symbolophorus barnardi,Symbolophorus barnardi,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+779,NA,Tadpole codling,Tadpole codling,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+780,Tellina spp,Tellins nei,Tellins nei,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+781,Tinca tinca,Tench,Tench,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+782,NA,Thickback sole,Thickback sole,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+783,Microchirus spp,Thickback soles,Thickback sole,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+784,Microchirus spp,Thickback soles nei,Thickback sole,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+785,NA,Thicklip grey mullet,Mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+786,NA,Thinlip grey mullet,Mullet,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+787,NA,Thorny tinselfish,Thorny tinselfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+788,NA,"Threadfins, tasselfishes nei","Threadfins, tasselfishes",Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+789,Gasterosteus aculeatus,Three-spined stickleback,Three-spined stickleback,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+790,NA,Thresher sharks nei,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+791,NA,Tiger shark,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+792,NA,"Toad, lyre crabs nei","Toad, lyre crabs nei",Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+793,Batrachoides spp,Toadfishes nei,Toadfishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+794,Cynoglossidae,Tonguefishes,Tonguefishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+795,NA,Tonguesole nei,Tonguesole nei,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+796,NA,Toothed rock crab,Toothed rock crab,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+797,NA,Toothfish,Toothfish,Demersal,Non-quota,0,1,Toothfish,NA,NA,2,Demersal (non quota)
+798,Galeorhinus galeus,Tope shark,Sharks and dogfish,Demersal,Quota-limited,1,1,Tope shark,NA,NA,1,Demersal (quota limited)
+799,Torpedo spp,Torpedo rays,Skates and rays,Demersal,Quota-limited,1,1,Rays,NA,NA,1,Demersal (quota limited)
+800,Balistidae,"Triggerfishes, durgons nei","Triggerfishes, durgons nei",Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+801,Salmo spp,Trouts,Trouts,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+802,Salmo spp,Trouts nei,Trouts,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+803,NA,"True lobsters,lobsterettes nei",Lobster,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+804,Thunnus spp,True tunas nei,Tunas,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+805,Chelidonichthys lucerna,Tub gurnard,Gurnards,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+806,Haliotis tuberculata,Tuberculate abalone,Tuberculate abalone,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+807,NA,Tuberculate cockle,Tuberculate cockle,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+808,Scombroidei,Tuna-like fishes nei,Tunas,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+809,Thunnini,Tunas nei,Tunas,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+810,NA,Turbot & Brill,Turbot,Demersal,Quota-limited,1,1,Turbot,NA,NA,1,Demersal (quota limited)
+811,Alosa fallax,Twaite shad,Twaite shad,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+812,NA,Two-row rock shell,Two-row rock shell,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+813,NA,Undulate venus,Undulate venus,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+814,Chlamys varia,Variegated scallop,Variegated scallop,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+815,Selachimorpha(Pleurotremata),Various sharks nei,Sharks and dogfish,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+816,"Loliginidae, Ommastrephidae",Various squids nei,Various squids,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+817,NA,Veined squid,Veined squid,Pelagic invertebrate,na,1,0,NA,NA,NA,6,Zooplankton carnivore
+818,Etmopterus spinax,Velvet belly,Velvet belly,Demersal,Non-quota,0,1,Velvet belly,NA,NA,2,Demersal (non quota)
+819,Necora puber,Velvet swimcrab,Velvet swimcrab,Benthic invertebrate,Carnivore,1,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+820,Coregonus albula,Vendace,Vendace,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+821,Veneridae,Venus clams nei,Venus clams,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+822,NA,Vimba bream,Vimba bream,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+823,NA,Wahoo,Wahoo,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+824,Undaria pinnatifida,Wakame,Wakame,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+825,NA,Warty crab,Warty crab,Benthic invertebrate,Carnivore,0,0,NA,NA,NA,3,Benthos carnivore/scavenge feeder
+826,Venus verrucosa,Warty venus,Warty venus,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+827,Trachinidae,Weeverfishes nei,Weeverfishes,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+828,NA,Weevers nei,Weeverfishes,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+829,NA,Wels(=Som)catfish,Welscatfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+830,Pseudotolithus spp,West African croakers nei,West African croakers nei,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+831,NA,West African goatfish,West African goatfish,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+832,Ilisha africana,West African ilisha,West African ilisha,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+833,Busycon spp,Whelk (Common whelk),Whelk,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+834,Busycon spp,Whelks,Whelk,Benthic invertebrate,Filter feeder,1,0,NA,NA,NA,7,Benthos filter/deposit feeder
+835,NA,White bream,White bream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+836,Epinephelus aeneus,White grouper,White grouper,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+837,Urophycis tenuis,White hake,White hake,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+838,NA,White perch,White perch,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+839,Diplodus sargus,White seabream,White seabream,Demersal,Non-quota,1,0,NA,NA,NA,2,Demersal (non quota)
+840,NA,White trevally,White trevally,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+841,Coregonus spp,Whitefishes nei,Whitefishes,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+842,Penaeus vannamei,Whiteleg shrimp,Whiteleg shrimp,Benthic invertebrate,Filter feeder,0,0,NA,NA,NA,7,Benthos filter/deposit feeder
+843,NA,Wide-eyed flounder,Wide-eyed flounder,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+844,NA,Winter flounder,Witch flounder,Demersal,Quota-limited,1,0,NA,NA,NA,1,Demersal (quota limited)
+845,Fucaceae,Wracks nei,Wracks nei,Seaweed,na,0,0,NA,NA,NA,8,Macrophyte
+846,Labridae,"Wrasses, hogfish","Wrasses, hogfishes",Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+847,Labridae,"Wrasses, hogfishes, etc. nei","Wrasses, hogfishes",Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+848,NA,Yellowedge grouper,Yellowedge grouper,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+849,Thunnus albacares,Yellowfin tuna,Yellowfin tuna,Pelagic,Migratory,0,0,NA,NA,NA,5,Migratory
+850,Seriola lalandi,Yellowtail amberjack,Yellowtail amberjack,Pelagic,Resident,0,0,NA,NA,NA,4,Planktivore
+851,NA,Yellowtail flounder,Yellowtail flounder,Demersal,Non-quota,1,1,Yellowtail flounder,NA,NA,2,Demersal (non quota)
+852,Diplodus cervinus,Zebra seabream,Zebra seabream,Demersal,Non-quota,0,0,NA,NA,NA,2,Demersal (non quota)
+853,Chionoecetes spp,Tanner crab nei,NA,NA,NA,NA,NA,NA,NA,PCR,11,Benthos carnivore/scavenge feeder
+854,Lycodes reticulatus,Arctic eelpout,NA,NA,NA,NA,NA,NA,NA,LCT,11,Demersal (non quota)
+855,Physiculus fulvus,Metallic codling,NA,NA,NA,NA,NA,NA,NA,JPS,11,Demersal (non quota)
+856,Rajiformes,Skates and rays- mantas nei,NA,Demersal,Non-quota,NA,NA,NA,599,SRX,2,Demersal (non quota)
+857,Balaenoptera acutorostrata,Minke whale,NA,Cetacean,NA,NA,NA,NA,2729,MIW,12,Cetacean
+858,Channichthyidae,Crocodile icefishes nei,NA,Demersal,Non-quota,NA,NA,NA,6169,ICX,2,Demersal (non quota)
+859,Arctogadus glacialis,Arctic Cod,NA,Planktivore,NA,NA,NA,NA,1043,ATG,13,Planktivore
+860,Myoxocephalus scorpius,Shorthorn sculpin,NA,Demersal,Non-quota,NA,NA,NA,2231,MXV,2,Demersal (non quota)
+861,Orcinus orca,Killer whale,NA,Cetacean,NA,NA,NA,NA,2727,KIW,12,Cetacean
+862,Balaenoptera musculus,Blue whale,NA,Cetacean,NA,NA,NA,NA,2733,BLW,12,Cetacean
+863,Cyprinodon variegatus,Sheepshead minnow,NA,Planktivore,NA,NA,NA,NA,5013,YCK,13,Planktivore
+864,Ammodytes tobianus,Small sandeel,NA,Planktivore,NA,NA,NA,NA,1812,ABZ,13,Planktivore
+865,Alaria esculenta,Babberlocks,NA,Macrophyte,NA,NA,NA,NA,2816,AJC,14,Macrophyte
+866,Anthozoa,Corals,NA,Benthos suspension deposit feeder,NA,NA,NA,NA,3911,AJH,15,Benthos filter/deposit feeder
+867,Acantholabrus palloni,Scale-rayed wrasse,NA,Demersal,Non-quota,NA,NA,NA,1697,AKL,2,Demersal (non quota)
+868,Pleuragramma antarcticum,Antarctic silverfish,NA,Planktivore,NA,NA,NA,NA,6154,ANS,13,Planktivore
+869,Paralomis spinosissima,Antarctic stone crab,NA,Benthos carnivore,NA,NA,NA,NA,7014,KCV,16,Benthos carnivore/scavenge feeder
+870,Euphausia superba,Antarctic krill,NA,Omnivorous zooplankton,NA,NA,NA,NA,2513,KRI,17,Zooplankton omnivorous
+871,Galathea strigosa,Galathea strigosa **,NA,Carnivorous benthic,NA,NA,NA,NA,2546,LOQ,18,Benthos carnivore/scavenge feeder
+872,Pomatoschistus minutus,Sand goby,NA,Demersal,Non-quota,NA,NA,NA,2111,OBZ,2,Demersal (non quota)
+873,Raja georgiana,Antarctic starry skate,NA,Demersal,Non-quota,NA,NA,NA,6511,SRR,2,Demersal (non quota)
+874,Taractes asper,Rough pomfret,NA,Planktivore,NA,NA,NA,NA,1672,TAS,13,Planktivore
+875,Dissostichus mawsoni,Antartic toothfish,NA,Demersal,Non-quota,NA,NA,NA,6152,TOA,2,Demersal (non quota)
+876,Dissostichus spp,Antartic toothfish- nei,NA,Demersal,Non-quota,NA,NA,NA,6153,TOT,2,Demersal (non quota)
+877,Parastichopus tremulus,Red sea cucumber,NA,Benthos suspension deposit feeder,NA,NA,NA,NA,2643,TVK,15,Benthos filter/deposit feeder
+878,Macrourus whitsoni,Whitson's grenadier,NA,Demersal,Non-quota,NA,NA,NA,6331,WGR,2,Demersal (non quota)
+879,Mya truncata,Blunt gaper,NA,Benthos suspension deposit feeder,NA,NA,NA,NA,2671,YTK,15,Benthos filter/deposit feeder
+,Dummy,Dummy,NA,Birds,NA,NA,NA,NA,NA,NA,NA,Birds
+,Dummy,Dummy,NA,Pinnipeds,NA,NA,NA,NA,NA,NA,NA,Pinnipeds
