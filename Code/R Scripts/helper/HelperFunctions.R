@@ -100,7 +100,7 @@ build_all <- function(n_workers = 4) {
   
   scripts <- list.files("./Code/R Scripts/se2e/", full.names = TRUE)
   scripts <- scripts[!basename(scripts) %in% c("@_batch_build.R",
-                                               "7. Compare Model Drivers.R")]
+                                               "8. Compare Model Drivers.R")]
   
   plan(multisession, workers = n_workers)
   on.exit(plan(sequential))                                  # tidy up workers when done
